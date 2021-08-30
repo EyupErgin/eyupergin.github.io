@@ -16,7 +16,7 @@ resume: false
 resume-external: false
 #resume-url: 
 
-url: https://ergin.dev/
+url: https://ergin.dev
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
