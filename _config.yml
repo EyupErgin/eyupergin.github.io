@@ -1,0 +1,92 @@
+name: Eyup S. Ergin
+bio: Cyber Threat Intelligence Analyst and GoLang Developer
+
+description: Cyber Threat Intelligence Analyst and GoLang Developer
+
+external-image: false
+picture: assets/images/profile.jpg
+
+url: https://ergin.dev
+# your url: https://USERNAME.github.io
+
+permalink: /:title/
+
+# analytics-google: 'UA-MYANALYTICS'
+
+github: eyupergin
+linkedin: eyupergin
+twitter: ergindev
+medium: ergindev
+stackoverflow: 4971651/eyup-sukru-ergin
+
+email: ergindev@gmail.com
+
+authors:
+  EyupErgin:
+    name: Eyup S. Ergin
+    bio: Cyber Threat Intelligence Analyst and GoLang Developer
+    external-image: false
+    picture: assets/images/profile.jpg
+    twitter: ErginDev
+
+width: normal
+
+pagination:
+  enabled: false
+  sort_reverse: true 
+  title: ":title" 
+  per_page: 5
+  permalink: "/:num/" 
+
+about: true
+blog: true
+malwblog: true
+secblog: true
+
+read-time: true
+
+show-tags: true
+
+related: true
+
+post-advance-links: [blog]
+
+show-author: true
+
+animation: true
+
+defaults:
+  - scope:
+      path: "" 
+      layout: "post"
+    values:
+      hidden: false
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-admin
+  - jekyll-paginate-v2
+  - jekyll-redirect-from
+
+jekyll-mentions:
+  base_url: https://github.com
+
+compress_html:
+  ignore:
+    envs:
+      - development
+      - stage
+
+exclude:
+  [
+    "travis.sh",
+    "README.md",
+    "Gemfile",
+    "Gemfile.lock",
+    "FAQ.md",
+    "node_modules",
+    "vendor",
+  ]

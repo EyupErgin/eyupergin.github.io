@@ -1,0 +1,33 @@
+---
+title: Blog
+description: Eyup S. Ergin, Cyber Threat Intelligence Analyst and GoLang Developer
+url: ergin.dev/blog
+image: /images/og/intelblog.jpg
+layout: page
+---
+<head>
+<link href="../scrollbar.css" type="text/css" rel="stylesheet"/>
+</head>
+<section class="list">
+	{% if site.posts.size == 0 %}
+		<p class="text-center">Nothing published yet!</p>
+	{% elsif site.pagination.enabled %}
+		{% for post in paginator.posts %}
+			{% if post.category == 'intelblog' %}
+				{% if post.hidden != true %}
+					{% include blog-post-intel.html %}
+				{% endif %}
+			{% endif %}
+		{% endfor %}
+
+		{% include pagination.html%}
+	{% else %}
+		{% for post in site.posts %}
+			{% if post.category == 'intelblog' %}
+				{% if post.hidden != true %}
+					{% include blog-post-intel.html %}
+				{% endif %}
+			{% endif %}
+		{% endfor %}
+	{% endif %}
+</section>
