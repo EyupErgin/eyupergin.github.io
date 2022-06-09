@@ -1,6 +1,9 @@
 ---
 layout: page
-title: About
+title: About Edited
+image: https://user-images.githubusercontent.com/74828443/172818962-562d63a9-b452-471f-a84b-2038a18d21e0.png
+
+
 ---
 
 Sidey is a simple and minimalistic jekyll blogging theme.
