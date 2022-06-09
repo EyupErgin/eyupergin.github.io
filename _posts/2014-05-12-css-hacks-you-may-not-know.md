@@ -1,8 +1,10 @@
 ---
 layout: post
 title: CSS hacks you may not know
+image: /og-opengraph-v2.png
 description: This is a collection of short CSS snippets I thought might be useful for beginners
 summary: This is a collection of short CSS snippets I thought might be useful for beginners.
+hidden: false
 tags: [css]
 ---
 
