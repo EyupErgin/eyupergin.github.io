@@ -2,7 +2,11 @@
       <!--<h1 class="logo">{{ site.title }}</h1>-->
       <nav role="navigation">
 <ul>
-   <img src="https://pbs.twimg.com/profile_images/1511917697717743617/bpMj90mG_400x400.jpg" style="border-radius: 50%!important;" width="90%"/>
+
+<div class="hide-on-mobile">
+   <img " src="https://pbs.twimg.com/profile_images/1511917697717743617/bpMj90mG_400x400.jpg" style="border-radius: 50%!important;" width="90%">
+</div>
+
 {% for item in site.data.navigation.links %}
       <li><a href="{{ item.url }}" {% if item.url == page.url %} class="active"{% endif %}>{{ item.title }}</a></li>
    {% endfor %}
