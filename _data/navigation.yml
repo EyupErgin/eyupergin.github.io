@@ -1,13 +1,13 @@
 links:
 - title: Intelligence
   url: /
+- title: TurkishLog
+  url: /tr
 - title: MilitaryLog
   url: /military
 - title: ThreatLog
   url: /blog
-- title: About
-  url: /about
 - title: Search
   url: /search
-- title: Rss
-  url: /atom.xml
+- title: About
+  url: /about
