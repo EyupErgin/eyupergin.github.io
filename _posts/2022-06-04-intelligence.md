@@ -27,7 +27,7 @@ There are many methods of processing intelligence data. The raw information gath
 So, let's get rid of the basics and take a short trip in terms of intelligence. So, what is this intelligence cycle?<br><br>
 
 <p align="center">
-	<img src="/images/intelligence_cycle.png" height="350">
+	<img src="/images/intelligence_cycle.png" height="350" width="700">
 </p>
 ### What is the Intelligence Cycle?<br>
 What is the Intelligence Cycle? As can be seen in the example I added above, the intelligence cycle means the regular and systematic processing of the data obtained through intelligence. This cycle has an endless loop and an operation that constantly renews itself. In addition, intelligence activities are studies that continue uninterrupted. For this reason, many different institutions, basically similar to this methodology, have many different methods of processing intelligence data. However, it is necessary to examine them in 4 main branches:<br>
