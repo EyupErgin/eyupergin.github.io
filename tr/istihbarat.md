@@ -1,6 +1,8 @@
 ---
 title: İstihbarat, İstihbaratın Önemi ve İstihbarat Çarkı
-tags: []
+description: Bu makalede İstihbaratın Tanımı, Kelimenin Kökeni, İstihbaratın Önemi, İstihbarat Verilerinin Nasıl İşleneceği ve İstihbarat Çarkına dair bilgilere yer verilmiştir.
+image: /images/istihbarat-og.png
+
 ---
 
 <img src="/images/intelligence-main.png">
