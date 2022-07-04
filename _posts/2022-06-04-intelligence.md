@@ -1,5 +1,7 @@
 ---
 title: Intelligence, Importance of Intelligence, and Intelligence Cycle
+description: This article contains information about the Definition of Intelligence, the Origin of the Word, the Importance of Intelligence, How to Process Intelligence Data and the Intelligence Cycle.
+image: /images/intelligence-og.png
 permalink: intelligence
 tags:
 - intelligence
