@@ -1,6 +1,7 @@
 ---
 title: About
 layout: page
+permalink: /about/
 ---
 
 <b>Hello, I'm Eyup Sukru</b>. I am an Investigative Intelligence Analyst living in Turkey. I work on Military and Cyber Threat Intelligence. In addition to my 2 years of experience in the field of cyber security, I have been continuously improving myself for 4 years.
