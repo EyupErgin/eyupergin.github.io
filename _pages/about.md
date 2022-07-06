@@ -15,20 +15,20 @@ I do research in the fields of Operational, Strategic, and Tactical Intelligence
 <ul class="skill-list">
 	<li>Cyber Threat Intelligence</li>
 	<li>Military Intelligence</li>
-	<li>Malware Analysis</li>
 	<li>GoLang </li>
 </ul>
 
 <br>
 <h2>Work</h2>
-<p><b>Seccops Cyber Security Company</b><br> Cyber Threat Intelligence Analyst <br> July 2021 - Present / www.seccops.com</p>
-<p><b>OMMER Machinery Company</b><br> Intern IT Asistanst<br> February 2020 - July 2021 / www.ommermakine.com</p>
+<p><b>VxThreat Threat Intelligence Company</b><br> Founder - Intelligence  Director<br> January 2022 - Present </p>
+<p><b>Seccops Cyber Security Company</b><br> Cyber Threat Intelligence Analyst <br> July 2021 - February 2022 |  www.seccops.com</p>
+<p><b>OMMER Machinery Company</b><br> Intern IT Asistanst<br> April 2021 - August 2021  | www.ommermakine.com</p>
 
 <br>
 
 <h2>Resume</h2>
 <p>In addition to all these, job or consultancy offers that I would like to consider with you may be hidden. Do not hesitate to contact.</p>
-> <a target="_blank" href="/images/Eyup_Sukru_Ergin_Resume.pdf">Click for resume.</a>
+<blockquote><a target="_blank" href="/images/Eyup_Sukru_Ergin_Resume.pdf">Click for resume.</a></blockquote>
 
 <br>
 
