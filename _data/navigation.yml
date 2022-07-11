@@ -5,8 +5,6 @@ links:
   url: /tr
 - title: MilitaryLog
   url: /military
-- title: SecurityLog
-  url: /security
 - title: ThreatLog
   url: /blog
 - title: Search
