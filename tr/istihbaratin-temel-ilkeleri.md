@@ -1,6 +1,6 @@
 ---
 title: İstihbaratın Temel İlkeleri
-permalink: "/tr/istihbaratin-temel-ilkeleri"
+permalink: "/tr/istihbaratin-temel-ilkeleri/"
 ---
 
 <img src="/images/bpoi-main.png">
