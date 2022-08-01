@@ -28,4 +28,4 @@ You can read my blog post below as an answer to your questions about it.<br>
 * HPP Exploiting with SQL Injection, Change Keyword,
 * Splitting the HTTP Parameter and BufferOwerflow + SQL Injection<br>
 You can read my blog post below as an answer to your questions about it.<br>
-> <b>[Web Application Firewall Bypassing - #3 • Feb 1, 2018 ](/basic-principles-of-intelligence)</b>
+> <b>[Web Application Firewall Bypassing - #3 • Feb 1, 2018 ](/web-application-firewall-bypassing-3)</b>
