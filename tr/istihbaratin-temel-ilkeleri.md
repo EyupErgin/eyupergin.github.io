@@ -32,4 +32,4 @@ Temel İstihbarat İlkelerini bu yazı ile sonlandırsam da bir sonraki yazım o
 <br>
 
 Temel İstihbarat serisine devam ederken serinin 4. yazısı olan Alanlarına ve Ölçeklerine Göre İstihbarat Çeşitleri yazısını okumak için tıklayın.
-> [Alanlarına Göre İstihbarat Türleri • Ağustos 1, 2022](http://localhost:4000/tr/alanlarina-gore-istihbarat/)
+> [Alanlarına Göre İstihbarat Türleri • Ağustos 1, 2022](/tr/alanlarina-gore-istihbarat/)
