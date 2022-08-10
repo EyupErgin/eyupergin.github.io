@@ -32,3 +32,10 @@ Hakkındaki sorularınıza cevap olarak aşağıdaki blog yazımı okuyabilirsin
 * Biyografik İstihbarat, Teknik İstihbarat, Siber İstihbarat,<br>
 Hakkındaki sorularınıza cevap olarak aşağıdaki blog yazımı okuyabilirsiniz.<br>
 > <b>[Alanlarına Göre İstihbarat Türleri • Ağustos 1, 2022 ](/tr/alanlarina-gore-istihbarat/)</b>
+
+<br>
+* Ölçeklerine Göre İstihbarat Türleri,
+* Taktik İstihbarat, Entegre İstihbarat,
+* Stratejik İstihbarat, Operasyonel İstihbarat<br>
+Hakkındaki sorularınıza cevap olarak aşağıdaki blog yazımı okuyabilirsiniz.<br>
+> <b>[Ölçeklerine Göre İstihbarat Türleri • Ağustos 5, 2022 ](/tr/olceklerine-gore-istihbarat-turleri/)</b>
