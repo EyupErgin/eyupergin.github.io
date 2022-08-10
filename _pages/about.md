@@ -20,8 +20,8 @@ I do research in the fields of Operational, Strategic, and Tactical Intelligence
 <br>
 <h2>Work</h2>
 <p><b>VxThreat Threat Intelligence Company</b><br> Founder - Intelligence  Director<br> January 2022 - Present </p>
-<p><b>Seccops Cyber Security Company</b><br> Cyber Threat Intelligence Analyst <br> July 2021 - February 2022 |  www.seccops.com</p>
-<p><b>OMMER Machinery Company</b><br> Intern IT Asistanst<br> April 2021 - August 2021  | www.ommermakine.com</p>
+<p><b>Seccops Cyber Security Company</b><br> Cyber Threat Intelligence Analyst <br> June 2021 - Mar 2022 |  www.seccops.com</p>
+<p><b>OMMER Machinery Company</b><br> Intern IT Asistanst<br> Mar 2021 - July 2021  | www.ommermakine.com</p>
 
 <br>
 
