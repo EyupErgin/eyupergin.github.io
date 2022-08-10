@@ -7,8 +7,6 @@ layout: page
 
 As an individual, I do research in the fields of operational, strategic and tactical intelligence. I am developing tools on satellite and signal intelligence systems and detection of terrorist organization attacks. In the field of cyber Security, I continue my research and development on cyber wars, ransomware attacks, system and network security and malware. You can find all my research by browsing my blog.
 
-
-<br>
 <br>
 
 <h2>Skills</h2>
