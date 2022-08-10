@@ -37,15 +37,20 @@ I do research in the fields of Operational, Strategic, and Tactical Intelligence
   <ul class="skill-list">
 		<li><strong>MITRE ATT&CK Defender™ : </strong></li>
 		<li> ATT&CK® Cyber Threat Intel. Certification Training  </li>
-    <li> ATT&CK® Threat Intelligence Badge Training  </li>
+    		<li> ATT&CK® Threat Intelligence Badge Training  </li>
+		<br>
+	  	<li><strong>Fortigate™</strong></li>
+	  	<li>NSE Network Security Expert 1</li>
+	  	<li>NSE Network Security Expert 2</li>
+	  	<li>NSE Network Security Expert 3</li>
 		<br>
 		<li><strong>Cybrary™ : </strong></li>
 		<li> Application of the MITRE ATT&CK Framework</li>
 		<li> Advanced Cyber Threat Intelligence </li>
-	  <li> Malware Threats Intelligence & Analysis </li>
-	  <li> Open Source Intelligence Analysis </li>
+	 	<li> Malware Threats Intelligence & Analysis </li>
+	  	<li> Open Source Intelligence Analysis </li>
 		<li> Linux for Security Expert </li>
-	  <li> SIEM Tools  </li>
+	  	<li> SIEM Tools  </li>
 		<br>
 		<li><strong>Rapid7™ : </strong></li>
 		<li> Threat Intelligence with Insight-IDR </li>
