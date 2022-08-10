@@ -31,3 +31,10 @@ You can read my blog post below as an answer to your questions about it.<br>
 * Biographical Intelligence, Technical Intelligence, Cyber Intelligence,<br>
 You can read my blog post below as an answer to your questions about it.<br>
 > <b>[Types of Intelligence by Fields • August 1, 2022 ](types-of-intelligence-by-fields/)</b>
+
+<br>
+* Types of Intelligence by Scale,
+* Tactical Intelligence, Integrated Intelligence,
+* Strategic Intelligence, Operational Intelligence<br>
+You can read my blog post below as an answer to your questions about it.<br>
+> <b>Types of Intelligence-by-Scale • August 5, 2022 ](/types-of-intelligence-by-scale/)</b>
