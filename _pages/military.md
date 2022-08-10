@@ -37,4 +37,4 @@ You can read my blog post below as an answer to your questions about it.<br>
 * Tactical Intelligence, Integrated Intelligence,
 * Strategic Intelligence, Operational Intelligence<br>
 You can read my blog post below as an answer to your questions about it.<br>
-> <b>Types of Intelligence-by-Scale • August 5, 2022 ](/types-of-intelligence-by-scale/)</b>
+> <b>[Types of Intelligence-by-Scale • August 5, 2022 ](/types-of-intelligence-by-scale/)</b>
