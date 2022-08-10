@@ -3,9 +3,11 @@ title: About
 layout: page
 ---
 
-<b>Hello, I'm Eyup Sukru</b>. I am an Investigative Intelligence Analyst living in Turkey. I work on Military and Cyber Threat Intelligence. In addition to my 2 years of experience in the field of cyber security, I have been continuously improving myself for 4 years.
+<b>Hello, I am Eyup Sukru.</b> I am a Researcher Intelligence Analyst living in Turkey. I work on Cyber Security and Cyber Intelligence. In addition to my 2 years of experience in the field of cyber security, I have been constantly improving myself for 4 years. I also do research and development on military technologies.
 
-I do research in the fields of Operational, Strategic, and Tactical Intelligence in the military. In the field of Cyber Security, I continue my research and development on Cyber Wars, Ransomware attacks, and Malware. You can access all of my research by browsing my blog. 
+As an individual, I do research in the fields of operational, strategic and tactical intelligence. I am developing tools on satellite and signal intelligence systems and detection of terrorist organization attacks. In the field of cyber Security, I continue my research and development on cyber wars, ransomware attacks, system and network security and malware. You can find all my research by browsing my blog.
+
+
 <br>
 <br>
 
