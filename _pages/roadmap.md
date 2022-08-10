@@ -10,6 +10,7 @@ title: Roadmap
 		<li><a target="_blank" href="/intelligence-cycle"> Intelligence Cycle </a></li>
 		<li><a target="_blank" href="/basic-principles-of-intelligence"> Basic Principles of Intelligence </a></li>
 		<li><a target="_blank" href="/types-of-intelligence-by-fields/"> Types of Intelligence by Fields </a></li>
+	    	<li><a target="_blank" href="/types-of-intelligence-by-scale/"> Types of Intelligence by Scale </a></li>
 	</ul>
 </ul>
 
@@ -39,5 +40,6 @@ title: Roadmap
 		<li><a target="_blank" href="/intelligence-cycle"> Intelligence Cycle </a></li>
 		<li><a target="_blank" href="/basic-principles-of-intelligence"> Basic Principles of Intelligence </a></li>
 		<li><a target="_blank" href="/types-of-intelligence-by-fields/"> Types of Intelligence by Fields </a></li>
+	    	<li><a target="_blank" href="/types-of-intelligence-by-scale/"> Types of Intelligence by Scale </a></li>
 	</ul>
 </ul>
