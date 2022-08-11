@@ -2,6 +2,10 @@
 title: Ölçeklerine Göre İstihbarat Türleri
 permalink: "/tr/olceklerine-gore-istihbarat-turleri/"
 layout: post
+image:
+  path: /images/olceklerine.png
+  height: 300
+  width: 1200
 tags: []
 ---
 
