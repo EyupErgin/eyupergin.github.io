@@ -158,7 +158,7 @@ function LeakCode(){
     window.open(url);
 }
 
-
+/*
 //BLOCK SCRIPT
 function disableselect(e)
 {
@@ -176,4 +176,4 @@ if (window.sidebar)
 {
 document.onmousedown=disableselect
 }
-
+*/
