@@ -44,7 +44,7 @@ function Alllookup(){
 function Breached(){
     var query  = document.myform.query.value;
     var finalQuery= query+"";
-    var url = "https://breached.to/search.php?action=do_search&keywords="+encodeURIComponent(finalQuery);
+    var url = "https://breached.vc/search.php?action=do_search&keywords="+encodeURIComponent(finalQuery);
     window.open(url);
 }
 function ExploitIn(){
