@@ -1,5 +1,0 @@
----
-title: Patika
----
-
-Çok Yakında...
