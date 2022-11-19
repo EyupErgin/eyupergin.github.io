@@ -1,0 +1,13 @@
+links:
+- title: Intelligence
+  url: /
+- title: SecurityLog
+  url: /blog
+- title: MilitaryLog
+  url: /military
+- title: TacticalLog
+  url: /tactical
+- title: Search
+  url: /search
+- title: About
+  url: /about
