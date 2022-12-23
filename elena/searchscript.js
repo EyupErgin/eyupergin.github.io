@@ -1,6 +1,6 @@
 function ALL(){
 	IntelX();
-    Tor();
+    	Tor();
 	Dehashed();
 	Genesis();
 	Russian();
@@ -8,8 +8,8 @@ function ALL(){
 	Global();
 	MxDomain();
 	Github();
-	Alllookup();
 	Ransomware();
+	//Alllookup();
 }
 
 // FORUMLAR ICIN KULLANILAN MODUL!
