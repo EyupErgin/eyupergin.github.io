@@ -1,26 +1,24 @@
-<head>
-    <style> body { margin: 0; } </style>
-  
+<!DOCTYPE html>
+<html style="overflow:hidden; background-color: black; padding-left: 0%;">
+<head>  
     <script src="https://unpkg.com/d3-dsv"></script>
     <script src="https://unpkg.com/index-array-by@1.3.3/dist/index-array-by.min.js"></script>
+    <script src="globe.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
   
-    <script src="https://unpkg.com/globe.gl"></script>
-    <!--<script src="../../dist/globe.gl.js"></script>-->
-  </head>
-  
-  <body>
-  <div id="globeViz"></div>
-  
-  <script>
-  
-    const COUNTRY = 'United States';
+<body>
+    <div id="globeViz"></div>
+
+    <script>
+    const COUNTRY = 'Turkey';
     const OPACITY = 0.22;
   
     const myGlobe = Globe()
       (document.getElementById('globeViz'))
-  
-      .globeImageUrl('black.png')
-      .pointOfView({ lat: 39.6, lng: -98.5, altitude: 2 }) // aim at continental US centroid
+      // Türkiye merkzli datalar import edilecek, test edilecek
+      .globeImageUrl('https://raw.githubusercontent.com/EyupErgin/eyupergin.github.io/main/map/green.png')
+      .pointOfView({ lat: 39.6, lng: -98.5, altitude: 2 }) // usa merkezli airport verilerinin odaklanma merkezi !! stealer datası import edilecek
   
       .arcLabel(d => `${d.airline}: ${d.srcIata} &#8594; ${d.dstIata}`)
       .arcStartLat(d => +d.srcAirport.lat)
@@ -34,16 +32,17 @@
       .arcColor(d => [`rgba(0, 255, 0, ${OPACITY})`, `rgba(255, 0, 0, ${OPACITY})`])
       .arcsTransitionDuration(0)
   
-      .pointColor(() => 'orange')
+      .pointColor(() => 'red')
       .pointAltitude(0)
-      .pointRadius(0.02)
+      .pointRadius(0.10)
       .pointsMerge(true);
-  
+      
+      myGlobe.backgroundColor('rgba(0, 0, 0, 0)')
+
     // load data
   
     const airportParse = ([airportId, name, city, country, iata, icao, lat, lng, alt, timezone, dst, tz, type, source]) => ({ airportId, name, city, country, iata, icao, lat, lng, alt, timezone, dst, tz, type, source });
     const routeParse = ([airline, airlineId, srcIata, srcAirportId, dstIata, dstAirportId, codeshare, stops, equipment]) => ({ airline, airlineId, srcIata, srcAirportId, dstIata, dstAirportId, codeshare, stops, equipment});
-  
     Promise.all([
       fetch('https://raw.githubusercontent.com/jpatokal/openflights/master/data/airports.dat').then(res => res.text())
         .then(d => d3.csvParseRows(d, airportParse)),
@@ -55,7 +54,7 @@
   
       const filteredRoutes = routes
         .filter(d => byIata.hasOwnProperty(d.srcIata) && byIata.hasOwnProperty(d.dstIata)) // exclude unknown airports
-        .filter(d => d.stops === '0') // non-stop flights only
+        .filter(d => d.stops === '0') 
         .map(d => Object.assign(d, {
           srcAirport: byIata[d.srcIata],
           dstAirport: byIata[d.dstIata]
@@ -67,4 +66,5 @@
         .arcsData(filteredRoutes);
     });
   </script>
-  </body>
+</body>
+</html>
