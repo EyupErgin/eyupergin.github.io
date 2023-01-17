@@ -8,6 +8,7 @@ function ALL(){
 	Global();
 	MxDomain();
 	Github();
+	Telegram();
 	Ransomware();
 	//Alllookup();
 }
