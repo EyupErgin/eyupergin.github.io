@@ -49,6 +49,14 @@ function Tor(){
     Ahmia();
 }
 
+function Telegram(){
+    TGIndexer()
+    XTea()
+    Telegago1()
+    Telegago1()
+    TGGroupScanner()
+}
+
 
 function Breached(){
     var query  = document.myform.query.value;
@@ -89,7 +97,7 @@ function CrackTurkey(){
 function SpyHackerz(){
     var query  = document.myform.query.value;
     var finalQuery= query+"";
-    var url = "https://spy.gen.tr/forum/search/search/?keywords="+encodeURIComponent(finalQuery);
+    var url = "https://spyhackerz.org/forum/search/search/?keywords="+encodeURIComponent(finalQuery);
     window.open(url);
 }
 function Siberdeyiz(){
@@ -150,6 +158,8 @@ function NulledTo(){
     var url = "https://www.nulled.to/index.php?app=core&module=search&section=search&do=search&fromsearch=1&search_term="+encodeURIComponent(finalQuery);
     window.open(url);
 }
+
+
 
 // BLACKLIST ICIN KULLANILAN MODUL!
 function MxDomain(){
@@ -233,3 +243,40 @@ function Ahmia(){
     window.open(url);
 }
 
+
+// TELEGRAM ICIN KULLANILAN MODUL!
+
+function TGIndexer(){
+    var query  = document.myform.query.value;
+    var finalQuery= query+"";
+    var url = "https://www.telegramdb.org/search?q="+encodeURIComponent(finalQuery);
+    window.open(url);
+}
+
+function XTea(){
+    var query  = document.myform.query.value;
+    var finalQuery= query+"";
+    var url = 'https://xtea.io/ts_en.html#gsc.tab=0&gsc.q='+encodeURIComponent(finalQuery);
+    window.open(url);
+}
+
+function Telegago1(){
+    var query  = document.myform.query.value;
+    var finalQuery= query+"";
+    var url = "https://cse.google.com/cse?cx=004805129374225513871:p8lhfo0g3hg&q="+encodeURIComponent(finalQuery);
+    window.open(url);
+}
+
+function Telegago1(){
+    var query  = document.myform.query.value;
+    var finalQuery= query+"";
+    var url = "https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg&q="+encodeURIComponent(finalQuery);
+    window.open(url);
+}
+
+function TGGroupScanner(){
+    var query  = document.myform.query.value;
+    var finalQuery= query+"";
+    var url = "https://www.telegram-group.com/en?s="+encodeURIComponent(finalQuery);
+    window.open(url);
+}
