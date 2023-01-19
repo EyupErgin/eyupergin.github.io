@@ -1,5 +1,5 @@
 ---
-title: Types of Intelligence by Fields
+title: 'Basic Intelligence: Types of Intelligence by Fields'
 permalink: "/types-of-intelligence-by-fields/"
 tags:
 - intelligence
