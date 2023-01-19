@@ -1,5 +1,5 @@
 ---
-title: Types of Intelligence by Scale
+title: 'Basic Intelligence: Types of Intelligence by Scale'
 permalink: "/types-of-intelligence-by-scale/"
 ---
 
