@@ -1,5 +1,5 @@
 ---
-title: Basic Principles of Intelligence
+title: 'Basic Intelligence: Basic Principles of Intelligence'
 permalink: "/basic-principles-of-intelligence"
 tags:
 - intelligence
