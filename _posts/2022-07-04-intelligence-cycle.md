@@ -1,5 +1,5 @@
 ---
-title: Intelligence Cycle
+title: 'Basic Intelligence: Intelligence Cycle'
 permalink: "/intelligence-cycle"
 tags:
 - intelligence
