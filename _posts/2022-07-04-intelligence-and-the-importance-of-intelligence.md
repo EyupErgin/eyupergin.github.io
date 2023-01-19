@@ -1,5 +1,5 @@
 ---
-title: Basıc Intelligence: Intelligence and Importance of Intelligence
+title: 'Basıc Intelligence: Intelligence and Importance of Intelligence'
 description: This article contains information about the Definition of Intelligence,
   the Origin of the Word, the Importance of Intelligence, How to Process Intelligence
   Data.
