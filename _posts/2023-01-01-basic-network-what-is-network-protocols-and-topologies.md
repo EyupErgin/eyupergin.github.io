@@ -1,6 +1,13 @@
 ---
 title: 'Basic Network: What is Network, Protocols and Topologies'
 permalink: basic-network-what-is-network-protocols-and-topologies
+tags:
+- cyber
+- security
+- network
+- protocols
+- topologies
+image: "https://raw.githubusercontent.com/EyupErgin/eyupergin.github.io/main/images/Basic-Network-1.png"
 ---
 
 ![HEAD](https://raw.githubusercontent.com/EyupErgin/eyupergin.github.io/main/images/Basic-Network-1.png)
