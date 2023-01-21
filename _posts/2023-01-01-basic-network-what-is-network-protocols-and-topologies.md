@@ -7,7 +7,10 @@ tags:
 - network
 - protocols
 - topologies
-image: "https://raw.githubusercontent.com/EyupErgin/eyupergin.github.io/main/images/Basic-Network-1.png"
+image:
+  path: "https://raw.githubusercontent.com/EyupErgin/eyupergin.github.io/main/images/Basic-Network-1.png"
+  height: 300
+  width: 1200
 ---
 
 ![HEAD](https://raw.githubusercontent.com/EyupErgin/eyupergin.github.io/main/images/Basic-Network-1.png)
