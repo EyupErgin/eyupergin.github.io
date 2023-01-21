@@ -44,7 +44,7 @@ Network engineers need to consider these two topologies when designing a network
 
 Today, the most widely used and known Network Topologies are the design models developed on five sequences. These models are used by network and system engineers in the required environments.
 
-<img style="text-align:center" src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/43de5051-e754-4ed7-92a6-0c1a303969bb/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230119%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230119T194556Z&X-Amz-Expires=86400&X-Amz-Signature=e0c54add92f07a675deb19ed70243ba7d49e26679f77411314b20457a1e90463&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject">
+<img style="text-align:center" src="https://raw.githubusercontent.com/EyupErgin/eyupergin.github.io/main/images/topologies.png">
 
 As you can see in the picture, 5 different network topologies are shown. These are
 
