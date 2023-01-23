@@ -27,8 +27,8 @@ Another way of looking at it is that in environments without a network based on 
 Of course, there are some requirements for computers to be connected to each other in networks. For example, there are three different methods used to connect two computers to each other. 
 
 - Ethernet,
-- Fiber Cable
-- Wireless
+- Fiber Cable,
+- Wireless.
 
 I will cover them in detail later, but I wanted to mention them briefly for the sake of knowledge. So, we have learned what we need to use to connect two or more devices to each other. However, we also need to know the protocols necessary to establish communication between devices. So let's continue with our next topic, Network Protocols.
 
