@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"> -->
+    <link rel="shortcut icon" href="">
+    <script type="text/javascript" src="./src/search.js"></script>
+    <link rel="stylesheet" href="./src/default.min.css">
+    <link rel="stylesheet" href="./src/font-awesome.min.css">
+    <title>Elena.</title>
+    <link href="./src/main.00572457.css" rel="stylesheet">
+  </head>
+  <body class="home-page">
+    <div id="appZoomEye">
+      
+      <!-- sayfa yükseliğini ayarladığım kısım.-->
+      <div class="appZoomEye" style="min-width: 1280px; min-height: 1300px;">
+        <div class="home" style="background-image: url(&quot;./src/1.png&quot;); background-size: cover;">
+          <div class="home-content">
+            <div class="homesearch-body" style="top: 50px; min-width: 1280px;">
+              <h1 style="text-align: center; color: white; font-size: 3.5em; text-shadow: 0 0 21px #108ee9;">Elena.</h1>
+              <form name="homesearch" class="homesearch">
+                <div class="homesearch-input ant-select-show-search ant-select-auto-complete ant-select ant-select-combobox ant-select-enabled">
+                  <div>
+                    <div class="ant-select-selection__rendered">
+                      
+                      <div unselectable="unselectable" class="ant-select-selection__placeholder" style="display: block; user-select: none;">Please enter search content. Domain, IP or Keyword</div>
+                      
+                      <ul>
+                        <li class="ant-select-search ant-select-search--inline">
+                          <div class="ant-select-search__field__wrap">
+                            <!-- arama alanı kısmım -->
+                            <input type="text" name="query" class="ant-input ant-select-search__field" value=""><br>
+                            <br>
+                            <div class="headerwithhr">
+                              <h3 style="color: #a6a9ad;">Most Used Engines</h3>
+                              <div style="border: 1px solid #108ee9; margin-right: 11px; margin-top: 5px; margin-bottom: 0px;" class="headerhr"></div>
+                            </div>
+                            <input type="button" class="button button1" value="All" onclick="ALL()"/>
+                            <input type="button" class="button button1" value="IntelX" onclick="IntelX()" />
+                            <input type="button" class="button button1" value="Dehashed" onclick="Dehashed()" />
+                            <input type="button" class="button button1" value="Global Forums" onclick="Global()"/>
+                            <input type="button" class="button button1" value="Turkish Forums" onclick="Turkish()"/>
+                            <input type="button" class="button button1" value="BlackMarkets" onclick="Russian(); Genesis()"/>
+                            <br><br>
+                            <div class="headerwithhr">
+                              <h3 style="color: #a6a9ad;">Search Engines</h3>
+                              <div style="border: 1px solid #108ee9; margin-right: 11px; margin-top: 5px; margin-bottom: 0px;" class="headerhr"></div>
+                            </div>
+                            <input type="button" class="button button1" value="All Search Engines" onclick="IntelX(); Tor(); Dehashed()"/>
+                            <input type="button" class="button button1" value="Ahmia" onclick="Tor()"/>
+                            <input type="button" class="button button1" value="IntelX" onclick="IntelX()" />
+                            <input type="button" class="button button1" value="Dehashed" onclick="Dehashed()" />
+                            <br><br>
+                            <div class="headerwithhr">
+                              <h3 style="color: #a6a9ad;">BlackMarket Engines</h3>
+                              <div style="border: 1px solid #108ee9; margin-right: 11px; margin-top: 5px; margin-bottom: 0px;" class="headerhr"></div>
+                            </div>
+                            <input type="button" class="button button1" value="All BlackMarkets" onclick="Russian(); Genesis()" />
+                            <input type="button" class="button button1" value="Russian Blackmarket" onclick="Russian();" />
+                            <input type="button" class="button button1" value="Genesis Blackmarket" onclick="Genesis();" />
+                            <br><br>
+                            <div class="headerwithhr">
+                              <h3 style="color: #a6a9ad;">Forum Search Engines</h3>
+                              <div style="border: 1px solid #108ee9; margin-right: 11px; margin-top: 5px; margin-bottom: 0px;" class="headerhr"></div>
+                            </div>
+                            <input type="button" class="button button1" value="All Hacking Forums" onclick="Turkish(); Global()"/>
+                            <input type="button" class="button button1" value="Turkish Forums" onclick="Turkish()"/>
+                            <input type="button" class="button button1" value="Global Forums" onclick="Global()"/>
+                            <br><br>
+                            <div class="headerwithhr">
+                              <h3 style="color: #a6a9ad;">Forum Telegram Engines</h3>
+                              <div style="border: 1px solid #108ee9; margin-right: 11px; margin-top: 5px; margin-bottom: 0px;" class="headerhr"></div>
+                            </div>
+                            <input type="button" class="button button1" value="All Telegram Engines" onclick="Telegram()"/>
+                            <input type="button" class="button button1" value="Telegago" onclick="Telegago1(); Telegago2()"/>
+                            <input type="button" class="button button1" value="TelegramDB" onclick="TGIndexer()"/>
+                            <input type="button" class="button button1" value="TGroup" onclick="TGGroupScanner()"/>
+                            <input type="button" class="button button1" value="XTea" onclick="XTea()"/>
+                            <br><br>
+                            <div class="headerwithhr">
+                              <h3 style="color: #a6a9ad;">CodeLeak Engines</h3>
+                              <div style="border: 1px solid #108ee9; margin-right: 11px; margin-top: 5px; margin-bottom: 0px;" class="headerhr"></div>
+                            </div>
+                            <input type="button" class="button button1" value="All CodeLeak Engines" onclick="Github(); CodeSearch();"/>
+                            <input type="button" class="button button1" value="Github" onclick="Github()"/>
+                            <input type="button" class="button button1" value="CodeSearch" onclick="CodeSearch()"/>
+                            <br><br>
+                            <div class="headerwithhr">
+                              <h3 style="color: #a6a9ad;">Ransomware and Other Engines</h3>
+                              <div style="border: 1px solid #108ee9; margin-right: 11px; margin-top: 5px; margin-bottom: 0px;" class="headerhr"></div>
+                            </div>
+                            <input type="button" class="button button1" value="All Other Engines" onclick="Ransomware(); MxDomain()"/>
+                            <input type="button" class="button button1" value="Ransomware" onclick="Ransomware()"/>
+                            <input type="button" class="button button1" value="BlackList" onclick="MxDomain()"/>
+                            <br><br>
+                            <div class="headerwithhr">
+                              <h3 style="color: #a6a9ad;">NEW! | Routine Forum Control Engines</h3>
+                              <div style="border: 1px solid #108ee9; margin-right: 11px; margin-top: 5px; margin-bottom: 0px;" class="headerhr"></div>
+                            </div>
+                            <input type="button" class="button button1" value="Spesific Forums" onclick="Spesific()"/>
+                            <input type="button" class="button button1" value="Global Forum's Malware Topics" onclick="Malware()"/>
+                            <input type="button" class="button button1" value="Global Forum's Database Topics" onclick="Database()"/>
+                            <input type="button" class="button button1" value="Global Forum's MarketPlace Topics" onclick="MarketPlace()"/>
+                            <input type="button" class="button button1" value="Turkish Forum's Topics" onclick="Turkish2()"/>
+                            <span class="ant-select-search__field__mirror">&nbsp;</span>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <span class="ant-select-arrow" unselectable="unselectable" style="user-select: none;">
+                    </span>
+                  </div>
+              </form>
+            </div>
+          </div>
+          <div class="home-footer" style="top: 1200px;">
+            <span class="home-footer-item">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2018 - 2023</span><br>
+            <span class="home-footer-item">Elena by Eyup Sukru ERGIN</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
