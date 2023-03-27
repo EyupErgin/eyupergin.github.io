@@ -79,7 +79,7 @@ function Dedigger(){
 function Demon(){
     var query  = document.myform.query.value;
     var finalQuery= query+"";
-    var url = "search.php?action=do_search&keywords="+encodeURIComponent(finalQuery);
+    var url = "https://demonforums.net/search.php?action=do_search&keywords="+encodeURIComponent(finalQuery);
     window.open(url);
 }
 
