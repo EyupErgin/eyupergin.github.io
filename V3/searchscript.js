@@ -167,7 +167,7 @@ function XssIs(){
 function ImhaTimi(){
     var query  = document.myform.query.value;
     var finalQuery= query+"";
-    var url = "https://imthack.com/forum/search/search/?keywords="+encodeURIComponent(finalQuery);
+    var url = "https://imhatimi.org/forum/search/1636567/?q="+encodeURIComponent(finalQuery);
     window.open(url);
 }
 function Hacktivizm(){
