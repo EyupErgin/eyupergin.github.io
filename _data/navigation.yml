@@ -1,0 +1,13 @@
+links:
+- title: Home Page
+  url: /
+- title: CyberSecLog
+  url: /blog
+- title: IntelligenceLog
+  url: /intelligence
+- title: NetworkLog
+  url: /network
+- title: Search
+  url: /search
+- title: About
+  url: /about
