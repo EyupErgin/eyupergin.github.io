@@ -8,9 +8,14 @@ tags:
 - tcp
 - udp
 permalink: tcp-udp-and-tcp-ip-model
+image:
+  path: images/network-3/main.png
+  height: 300
+  width: 1200
 ---
 
 ---
+![HEAD](/images/network-3/main.png)
 
 Hello everyone with a new blog post! I am here with the 3rd blog post of the network basics series. Have a good read in advance.
 
@@ -96,7 +101,7 @@ Although both are designed for different purposes, they have some fundamental di
 
 When we look at the history of this model, this model was created by the US Department of Defense in the 1980s and continues to be developed. The TCP/IP Protocol has similar headings as the OSI Reference model. However, it has fewer layers and most layers look like a combination of the OSI Reference model.
 
-![image (17).png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/37d47426-26a9-4f84-ab82-a0a5d99b054e/image_(17).png)
+![image-1](/images/network-3/image-1.png)
 
 As can be seen above, there are 4 layers in the TCP/IP Model. These layers are:
 
@@ -123,7 +128,7 @@ When these models were derived, models based on layers and protocols emerged. By
 
 ### Data Transmission in the OSI Model:
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b6345863-3448-4fa6-8f02-b1b60fdbfaa7/Untitled.png)
+![image-1](/images/network-3/image-2.png)
 
 On the OSI Model, as the data moves between layers, certain information is transmitted to a lower or upper layer. The process that occurs in the data transmitted from the lower layer to the upper layer is called Encapsulation.
 

@@ -1,12 +1,12 @@
 links:
-- title: Intelligence
+- title: Home Page
   url: /
-- title: SecurityLog
+- title: CyberSecLog
   url: /blog
-- title: MilitaryLog
-  url: /military
-- title: TacticalLog
-  url: /tactical
+- title: IntelligenceLog
+  url: /intelligence
+- title: NetworkLog
+  url: /network
 - title: Search
   url: /search
 - title: About

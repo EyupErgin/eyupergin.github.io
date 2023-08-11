@@ -4,7 +4,7 @@
  <title>Eyup Sukru Ergin's Intelligence Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2022-11-19T00:29:48+03:00</updated>
+ <updated>2023-08-11T23:49:23+03:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Eyup Sukru Ergin</name>
@@ -13,9 +13,18 @@
 
  
  <entry>
+   <title>➔ Intelligence 101:</title>
+   <link href="http://localhost:4000/#"/>
+   <updated>2023-06-30T00:00:00+03:00</updated>
+   <id>http://localhost:4000/intelligence-101</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
    <title>Types of Intelligence by Scale</title>
    <link href="http://localhost:4000/types-of-intelligence-by-scale/"/>
-   <updated>2022-08-05T00:00:00+03:00</updated>
+   <updated>2023-01-29T00:00:00+03:00</updated>
    <id>http://localhost:4000/types-of-intelligence-by-scale</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/images/olceklerine.png&quot; /&gt;&lt;/p&gt;
 
@@ -51,7 +60,7 @@ From now on, we will continue with our new series, cyber intelligence. Hope to s
  <entry>
    <title>Types of Intelligence by Fields</title>
    <link href="http://localhost:4000/types-of-intelligence-by-fields/"/>
-   <updated>2022-08-01T00:00:00+03:00</updated>
+   <updated>2023-01-22T00:00:00+03:00</updated>
    <id>http://localhost:4000/types-of-intelligence-by-fields</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/images/alanlarina.png&quot; /&gt;&lt;/p&gt;
 
@@ -166,7 +175,7 @@ It is shaped by two main headings, namely, political intelligence. Well, if we n
  <entry>
    <title>Basic Principles of Intelligence</title>
    <link href="http://localhost:4000/basic-principles-of-intelligence"/>
-   <updated>2022-07-11T00:00:00+03:00</updated>
+   <updated>2023-01-15T00:00:00+03:00</updated>
    <id>http://localhost:4000/basic-principles-of-intelligence</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/images/bpoi-main.png&quot; /&gt;&lt;/p&gt;
 &lt;blockquote&gt;
@@ -207,7 +216,7 @@ It is shaped by two main headings, namely, political intelligence. Well, if we n
  <entry>
    <title>Intelligence Cycle</title>
    <link href="http://localhost:4000/intelligence-cycle"/>
-   <updated>2022-07-04T00:00:00+03:00</updated>
+   <updated>2023-01-08T00:00:00+03:00</updated>
    <id>http://localhost:4000/intelligence-cycle</id>
    <content type="html">&lt;p align=&quot;center&quot;&gt;
 	&lt;img src=&quot;/images/intelligence_cycle.png&quot; height=&quot;350&quot; width=&quot;700&quot; /&gt;
@@ -239,7 +248,7 @@ In addition to open and accessible sources, the data obtained by intelligence ag
  <entry>
    <title>Intelligence and Importance of Intelligence</title>
    <link href="http://localhost:4000/intelligence-and-the-importance-of-intelligence"/>
-   <updated>2022-07-04T00:00:00+03:00</updated>
+   <updated>2023-01-01T00:00:00+03:00</updated>
    <id>http://localhost:4000/intelligence-and-the-importance-of-intelligence</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/images/intelligence-main.png&quot; /&gt;&lt;/p&gt;
 &lt;blockquote&gt;
@@ -263,6 +272,596 @@ From the simplest to the most complex events, there is instant intelligence in e
 &lt;blockquote&gt;
   &lt;p&gt;&lt;a href=&quot;/intelligence-cycle&quot;&gt;Intelligence Cycle • July 4, 2022&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>➔ Network 101:</title>
+   <link href="http://localhost:4000/#"/>
+   <updated>2022-05-01T00:00:00+03:00</updated>
+   <id>http://localhost:4000/network-101</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Ethernet, CSMA/CD and MAC Address</title>
+   <link href="http://localhost:4000/ethernet-csma-cd-and-mac-address"/>
+   <updated>2022-04-01T00:00:00+03:00</updated>
+   <id>http://localhost:4000/ethernet-csma-cd-and-mac-address</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/network-4/main.png&quot; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Hello everyone with a new blog post! I am here with the 4th blog post of the network basics series. Have a good read in advance.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
+
+&lt;p&gt;In this blog post, we will continue with the TCP, UDP Protocols and TCP/IP Model that we have already covered, and we will move on to the basic concept of Ethernet. Let’s make a quick start to this article, starting with the history of Ethernet and extending to the MAC address.&lt;/p&gt;
+
+&lt;h2 id=&quot;ethernet-and-the-history-of-ethernet&quot;&gt;Ethernet and the History of Ethernet&lt;/h2&gt;
+
+&lt;p&gt;Ethernet is a protocol that emerged in the 1970s. It can operate in layers 1 and 2 in the OSI model. This protocol includes features such as signaling in the first layer and defining frame formats in the second layer.&lt;/p&gt;
+
+&lt;p&gt;Ethernet was developed by a company called Xerox Parc between 1973 and 1975. In 1975, when the protocol was completed, a patent application was filed. In 1976, the first draft text for this protocol was prepared. The first draft model included a data rate of 3Mbps and 8 Bit source and destination address fields.&lt;/p&gt;
+
+&lt;p&gt;Robert Metcalfe, one of the developers of the protocol, founded 3COM in 1979. Through Robert, who convinced DEC, Intel and Xerox to develop Ethernet as the “DIX” standard, the first Ethernet draft was published by the IEEE in 1980. After a 3-year hiatus, it was adopted by the IEEE in 1983 as the IEEE 802.3 standard.&lt;/p&gt;
+
+&lt;p&gt;When these standards were adopted by the IEEE, the Ethernet protocol had a data rate of 10Mbps and a 48 Bit data source and destination address space. The 48 Bit data source and destination address space is the MAC address used today.&lt;/p&gt;
+
+&lt;h2 id=&quot;ethernet-and-topologies&quot;&gt;Ethernet and Topologies&lt;/h2&gt;
+
+&lt;p&gt;Ethernet had a topology like every network. As seen in the first ethernet drafts and as I mentioned in my previous blog post on network topologies, Ethernet used the topology model called “Bus Topology” in the first titles. When a data was sent, all devices connected to the line on the network could receive this data. Old wired telephone lines can be given as an example.&lt;/p&gt;
+
+&lt;p&gt;When we continue with the first topology designed on Ethernet, we cannot pass without mentioning the cable technology of this topology. The first Ethernet-based cable standards on this topology were 10Base5 and 10Base2.&lt;/p&gt;
+
+&lt;p&gt;In these cables, 10Base5 can be used up to a maximum of 500 meters. However, 10Base2 can be used up to a maximum of 185 meters.&lt;/p&gt;
+
+&lt;p&gt;Well, when we examine these cable standards here, we come across a format on the nomenclature. These are naming formats as 10-Base and 5 or 2. Here the 10 part tells us that the cable supports a maximum data rate of 10Mbps, the Base word is “Baseband” and 5 or 2 tells us that 10Base5 has a segment width of 500 meters and 2 in 10Base2 has a maximum segment width of 185 meters.&lt;/p&gt;
+
+&lt;p&gt;Also good information:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Baseband, when only one signal is transmitted on a cable at the same time, the word Base is used in the nomenclature to be Baseband. It means that a single signal or frequency is transmitted on a single cable. If a second signal is sent on the cable contrary to the Bus topology, then the collision process we call Collision occurs. To avoid these collisions, cables with Broadband technology should be used, not Baseband. An example of this is the cables used to display images to televisions at home. Cables used for TVs can carry different signals on a single cable. The best example of this is that the signals of different channels come on the television at the same time and we can get it over a single cable.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Continuing from where we left off, in this topology model, a connector called BNC-T is used to connect the computers to each other. Topology is provided through this Connector. After all computers are connected and the networking process is completed, the process is terminated by attaching the terminators called BNC Terminators to the cable end. If this termination process is not done at the end of the cabling, the data transmitted on the cable is reflected back and collision occurs. Well, since we are talking about the issue we call collision, we cannot do without mentioning CSMA/CD, which is a solution to this. So CSMA/CD is next.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-csmacd&quot;&gt;What is CSMA/CD?&lt;/h2&gt;
+
+&lt;p&gt;In the early days of Ethernet, the devices on the bus topology and connected to the topology provided data transmission via CSMA/CD. CSMA/CD also stands for Collision Detection Carrier Listening Multiple Access. However, in a nutshell, its main task is to detect whether there is Collision or not, hence the name Collision Detector.&lt;/p&gt;
+
+&lt;p&gt;In this method, when a device wants to send data over the topology, it is detected whether there is active data transport in the topology via CSMA/CD. The tasks here are CS to determine whether the communication line is suitable for sending data, MA to prevent other devices on the topology from sending data except the device sending and receiving the data, and even to ensure that only the devices sending and receiving data remain in communication, and CD to detect the collision of data sent by devices sending data at the same time when the line of devices connected to the topology is long. This is how CSMA/CD comes into existence.&lt;/p&gt;
+
+&lt;p&gt;CSMA/CD sends a JAM signal in order to provide MA (Multiple Access) on the topology and the communication of other devices on the network is stopped except for the device sending and receiving data.&lt;/p&gt;
+
+&lt;p&gt;A little information:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The more devices connected to each other on the topology, the higher the probability of Collision. This is not only due to the connected device, but also due to the length of the cable and if there is a fault in the cable. As we remember, in case of a cable failure, the signal is not attenuated by the signal attenuator, so the signal is reflected back and Collision occurs again.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So we talked about this Bus topology and Collision. If it is such a problematic topology, why didn’t we switch to another topology, right? Yes, we did. Yes. As a solution to such problems, Star Topology was adopted, taking into account the disadvantages of 10Base2 and 10Base5. As it is less costly and more advantageous compared to Bus, Bus was abandoned and Star topology was started to be used.&lt;/p&gt;
+
+&lt;p&gt;OK, we have seen Collision in the disadvantages of Bus, we have seen Collision in Cables, but there are also areas. You can think of these areas as domains. The domain of Collision. Let’s continue without much ado. What is Collision Domain?&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-collision-domain&quot;&gt;What is Collision Domain?&lt;/h2&gt;
+
+&lt;p&gt;In the early days of Ethernet, we often saw that there could be data collision between devices created with Bus Topology. However, there are domains as a result of signal collision. Now let’s continue in order.&lt;/p&gt;
+
+&lt;h3 id=&quot;single-collision-domain&quot;&gt;Single Collision Domain:&lt;/h3&gt;
+
+&lt;p&gt;In case of a collision in the topology, if all devices in the topology are affected, then the domain of the collision is called Single Collision Domain. In bus topology, since all devices are connected to a single cable and if a signal collision occurs in this topology, we call it a single collision.&lt;/p&gt;
+
+&lt;h3 id=&quot;broadcast-domain&quot;&gt;Broadcast Domain:&lt;/h3&gt;
+
+&lt;p&gt;In this area, if the broadcast sent in the topology is received by all devices, we call this topology a broadcast domain. There may be a concept confusion here. Broadcast Domain is also Single Collision Domain. However, Broadcast Domain is also Single Collision Domain. It is complicated but understandable. I will talk about this in more detail later. Now let’s continue over Ethernet and move on to Ethernet Cable Types.&lt;/p&gt;
+
+&lt;h2 id=&quot;ethernet-cable-types&quot;&gt;Ethernet Cable Types&lt;/h2&gt;
+
+&lt;p&gt;We examined the 10Base2 and 10Base5 cable types used on the Bus topology created in the early days of Ethernet. Then, when we progressed through the Star topology, we met Twisted Pair Cables. When we progressed through the Star Topology, standards were created in this topology, just like the Bus. 10BaseT used in this topology was standardized in 1990. In these standards, the maximum cable length is limited to 100 meters. It is Baseband and supports up to 10Mbps data rate. In addition, as in the same Bus standards, the expression T, which replaces the expression 2 or 5, indicates that we have Twisted Pair.&lt;/p&gt;
+
+&lt;p&gt;Here 10BaseT is divided into two. These are UTP and STP. If I summarize it simply;
+UTP: means Unshielded Twisted Cable, STP means Shielded Twisted Cable. which, technically speaking, consists of 4 pairs of 2 cables. Twisted is one of the most basic elements to prevent frequency collision. RJ45 connector is used as a connector. RJ45 also has 2 different pin placement types in the same way. You can examine in detail from the picture below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/network-4/rj45.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;However, these were not very up-to-date today. Since automatic MDI and MDIX have been introduced, data flow and connection can be provided on the same connector whether it is T568A or T568B. Now let’s continue with the last part of our Network 101 series, MAC Address.&lt;/p&gt;
+
+&lt;h2 id=&quot;mac-address&quot;&gt;MAC Address&lt;/h2&gt;
+
+&lt;p&gt;When defining Ethernet, I have already mentioned that Ethernet works on both layer 1 and layer 2. When Ethernet standards are accepted, not only layer 1 but also layer 2 is accepted. Ethernet has a MAC address in the data link layer.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-is-mac-address&quot;&gt;What is MAC Address?&lt;/h4&gt;
+
+&lt;p&gt;MAC, or Media Access Control Address, can also be referred to as physical address or hardware address. MAC Address is not only available on Ethernet. MAC Addresses:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ethernet,&lt;/li&gt;
+  &lt;li&gt;Token Ring,&lt;/li&gt;
+  &lt;li&gt;Wi-Fi,&lt;/li&gt;
+  &lt;li&gt;Bluetooth&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It is also used in protocols such as&lt;/p&gt;
+
+&lt;p&gt;MAC Address is a value consisting of 48 bits and 6 bytes and is uniq for each network card. This value is given to the network cards by the hardware manufacturer. MAC Address consists of 6 bytes. The first 3 bytes represent the manufacturer and the other 3 bytes are the unique code given to the hardware produced by the company.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-is-the-role-of-the-mac-address&quot;&gt;What is the Role of the MAC Address?&lt;/h4&gt;
+
+&lt;p&gt;MAC Address enables network devices to communicate in local networks. It is not a value carried outside the network. When a device wants to establish a connection with another device in the network, it does this through the MAC Address. Briefly, this addressing method is used to identify and communicate with the device that will send the data and the device that will receive the data when two devices communicate with each other within the same network.&lt;/p&gt;
+
+&lt;p&gt;If you are here, it means that you now have a basic level of Network knowledge. The important thing here is not that you have come this far, but that you are evaluating all this information I have written in a way that will benefit you. As much as I could, I tried to convey the Network 101 series to you in a fluent, understandable and plotted way. Hope to see you with the Network 102 series.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>TCP, UDP Protocols and TCP/IP Model</title>
+   <link href="http://localhost:4000/tcp-udp-and-tcp-ip-model"/>
+   <updated>2022-03-01T00:00:00+03:00</updated>
+   <id>http://localhost:4000/tcp-udp-and-tcp-ip-model</id>
+   <content type="html">&lt;hr /&gt;
+&lt;p&gt;&lt;img src=&quot;/images/network-3/main.png&quot; alt=&quot;HEAD&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hello everyone with a new blog post! I am here with the 3rd blog post of the network basics series. Have a good read in advance.&lt;/p&gt;
+
+&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
+
+&lt;p&gt;In the last blog post, we have covered in detail what the OSI Reference Model is and which applications and protocols work at which layers. In this blog post, we will first cover TCP and UDP and then the TCP/IP Model. Finally, under the title Encapsulation, we will give a detailed meaning to the transmission of data.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-tcp-protocol&quot;&gt;What is TCP Protocol?&lt;/h2&gt;
+
+&lt;p&gt;TCP is a data transfer protocol known as Transmission Control Protocol. Its main purpose is to divide the data it receives from the Application layer into smaller segments for transmission over the network.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-are-the-features-of-the-tcp-protocol&quot;&gt;What are the Features of the TCP Protocol?&lt;/h3&gt;
+
+&lt;p&gt;The TCP Protocol has basically 4 characteristics. These are the following&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;It is a secure protocol,&lt;/li&gt;
+  &lt;li&gt;Data integrity is a priority,&lt;/li&gt;
+  &lt;li&gt;Flow control is ensured,&lt;/li&gt;
+  &lt;li&gt;It is a connection-based protocol,&lt;/li&gt;
+  &lt;li&gt;It uses the Three Way Handshake method.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So if we examine the features of the TCP Protocol.&lt;/p&gt;
+
+&lt;p&gt;TCP is a completely duplex and secure protocol. It has a structure that checks whether the sent data has reached its destination and whether it has been transmitted.&lt;/p&gt;
+
+&lt;p&gt;Due to the structure of the TCP Protocol, the transmitter waits for confirmation from the receiver that it has received the segments it has sent. If confirmation is received from the receiver, the continuation segments are transmitted. Thus, it provides a secure data flow by checking the integrity of the data and whether it is transmitted to the other party.&lt;/p&gt;
+
+&lt;p&gt;Each data sent over TCP has a sequence number. Taking into account the disruptions that may occur on the network due to the provision of the control mechanism in the segments going from the transmitter to the receiver, the integrity of the data is ensured by transmitting the segments that cannot be transmitted when the sequence-based transmission is completed in the data process.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-udp-protocol&quot;&gt;What is UDP Protocol?&lt;/h2&gt;
+
+&lt;p&gt;UDP is known as User Datagram Protocol. It has fundamental differences compared to TCP. However, both protocols are used today as data transfer protocols. So what are the features of the UDP Protocol? Let’s examine it quickly.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-are-the-characteristics-of-the-udp-protocol&quot;&gt;What are the Characteristics of the UDP Protocol?&lt;/h3&gt;
+
+&lt;p&gt;If we give a list again in the same way as in the TCP Protocol, UDP:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Not secure.&lt;/li&gt;
+  &lt;li&gt;Flow control is not provided.&lt;/li&gt;
+  &lt;li&gt;It is a connectionless protocol.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This protocol, like TCP, is a protocol for data transfer by dividing the data coming from the upper layers. In UDP, the divided data is called a datagram, not like TCP. Datagrams are less in size than segments. It is faster than TCP due to its lower bandwidth.&lt;/p&gt;
+
+&lt;p&gt;UDP is not secure. UDP controls the data, just like TCP, but it does not control whether the data reaches the receiver like TCP does. There is no control mechanism in UDP. UDP also does not provide flow control. Therefore, it can transfer data without the need to establish a connection.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-are-the-differences-between-tcp-and-udp&quot;&gt;What are the Differences Between TCP and UDP?&lt;/h3&gt;
+
+&lt;p&gt;Although both are designed for different purposes, they have some fundamental differences. Here are some key features to explain the differences between TCP and UDP:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Connection management:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;TCP starts with a connection establishment phase before data transmission.&lt;/li&gt;
+  &lt;li&gt;UDP allows data to be sent directly without connection establishment.
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Reliability:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;TCP prioritizes reliability in data transmission.&lt;/li&gt;
+  &lt;li&gt;UDP provides fast and direct data transfer, but with a low level of reliability.
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;3. Data integrity:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;TCP uses checksums to ensure data integrity.&lt;/li&gt;
+  &lt;li&gt;UDP has no checksum to check data integrity.
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;4. Data flow control:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;TCP manages the flow of data and performs flow control to avoid congestion.&lt;/li&gt;
+  &lt;li&gt;UDP does not control data flow.
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;5. Disconnection:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;TCP ensures that both parties are notified before disconnecting and that the connection is terminated correctly.&lt;/li&gt;
+  &lt;li&gt;UDP uses no special protocol for disconnection, it just abruptly ends the connection.
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;6. Uses&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;TCP is preferred for applications that require reliable data transfer. For example, downloading web pages, sending e-mail and transferring files.&lt;/li&gt;
+  &lt;li&gt;UDP is preferred for applications that require fast data transfer. For example, games, broadcasts, video and audio streaming.
+&lt;br /&gt;
+&lt;br /&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;After a quick review of the TCP and UDP Protocols, let’s move on to our next topic, the TCP/IP Protocol.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;what-is-the-tcpip-protocol&quot;&gt;What is the TCP/IP Protocol?&lt;/h2&gt;
+
+&lt;p&gt;When we look at the history of this model, this model was created by the US Department of Defense in the 1980s and continues to be developed. The TCP/IP Protocol has similar headings as the OSI Reference model. However, it has fewer layers and most layers look like a combination of the OSI Reference model.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/network-3/image-1.png&quot; alt=&quot;image-1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As can be seen above, there are 4 layers in the TCP/IP Model. These layers are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Application Layer,&lt;/li&gt;
+  &lt;li&gt;Transport Layer,&lt;/li&gt;
+  &lt;li&gt;Internet Layer,&lt;/li&gt;
+  &lt;li&gt;Network Layer.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There are 4 layers.&lt;/p&gt;
+
+&lt;p&gt;The TCP/IP Model is a two-layer communication protocol. It ensures that the data in the upper layers are separated into packets before transmission and the data are reassembled at the receiver. The lower layers control the routing of the transmitted packets to the desired network address. In the TCP/IP Model, a new protocol can be easily inserted between layers. In the same way, an unused layer can be easily removed.&lt;/p&gt;
+
+&lt;p&gt;After the basics, it is time to examine the transmission of data under OSI, TCP/IP and Encapsulation. So let’s take a quick look.&lt;/p&gt;
+
+&lt;h2 id=&quot;transmission-of-data-over-the-osi-model&quot;&gt;Transmission of Data over the OSI Model&lt;/h2&gt;
+
+&lt;p&gt;If we examine how data generated by users is transmitted in the protocols on the OSI and TCP/IP Model, we basically need to go into the reasons for the emergence of protocols.&lt;/p&gt;
+
+&lt;p&gt;The main reason for the creation of these protocols is that these structures were derived so that the products produced by different manufacturers could work fully integrated by the users.&lt;/p&gt;
+
+&lt;p&gt;As a result of the studies, the OSI and TCP/IP Models, which are widely used today, have emerged.&lt;/p&gt;
+
+&lt;p&gt;When these models were derived, models based on layers and protocols emerged. By creating transition data between layers, it is also prevented that an improvement that can be created on the layers will affect other layers. So let’s quickly move on to OSI.&lt;/p&gt;
+
+&lt;h3 id=&quot;data-transmission-in-the-osi-model&quot;&gt;Data Transmission in the OSI Model:&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/network-3/image-2.png&quot; alt=&quot;image-1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;On the OSI Model, as the data moves between layers, certain information is transmitted to a lower or upper layer. The process that occurs in the data transmitted from the lower layer to the upper layer is called Encapsulation.&lt;/p&gt;
+
+&lt;p&gt;In the OSI Model, if a data is not transmitted from lower layers to upper layers, but from upper layer to lower layer, this process is called De-encapsulation. Thus, we have finished the data integration and fragmentation in the OSI Model in this blog post.&lt;/p&gt;
+
+&lt;p&gt;Hope to see you in the next blog post.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>OSI Reference Model and OSI Layer</title>
+   <link href="http://localhost:4000/basic-network-what-is-osi-reference-model-and-osi-layers"/>
+   <updated>2022-02-01T00:00:00+03:00</updated>
+   <id>http://localhost:4000/basic-network-what-is-osi-reference-model-and-osi-layers</id>
+   <content type="html">&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/EyupErgin/eyupergin.github.io/main/images/Basic%20Network%20OSI%20Reference%20Model%20and%20OSI%20Layers.png&quot; alt=&quot;HEAD&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hello everyone with a new blog post! Today I am here with the second post of our blog series called Network Basics. Have a good read.&lt;/p&gt;
+
+&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
+
+&lt;p&gt;In the last blog post, I shared with you the basic network concepts, What is Network? What are Network Protocols? I ended the blog post by examining Network Topology and five sample topology models. In today’s post, I will share with you What is the OSI Reference Model? What are the Network Layers? I will touch on many topics under the main headings, so let’s continue.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-the-osi-reference-model&quot;&gt;What is the OSI Reference Model?&lt;/h2&gt;
+
+&lt;p&gt;With the introduction of the network concept into our lives and the establishment of communication between devices, many technology companies have started to develop network protocols. However, each manufacturer has developed devices and protocols based on its own product and its own protocol. However, problems such as protocol incompatibility between different brands of devices that serve the same purpose have entered our lives as a problem brought about by the development of hardware and software based on their own products.&lt;/p&gt;
+
+&lt;p&gt;In order to solve such problems between their own products, developers developed an architecture created by IBM in 1974 and named IBM SNA (System Network Architecture), which is like the OSI Reference Model but not exactly the same. In the same years, Digital also developed an architecture called Digital Equipment Corporation Network, which they called DECNET.&lt;/p&gt;
+
+&lt;p&gt;However, the problem of protocol incompatibility of different brand devices with other different brand devices in the demand part of the consumer side and the search for a solution to this by both consumers and manufacturers laid the foundation of the OSI Reference Model.&lt;/p&gt;
+
+&lt;p&gt;In 1983, the International Standards Organization adopted OSI, also known as Open System Interconnection, and announced it to the world as a standard.&lt;/p&gt;
+
+&lt;p&gt;After a brief look at the history of the OSI Reference Model, let’s get to know the layers.&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&quot;text-align:center&quot; src=&quot;https://raw.githubusercontent.com/EyupErgin/eyupergin.github.io/main/images/what-is-osi-referance-model.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;what-are-the-osi-layers&quot;&gt;What are the OSI Layers?&lt;/h2&gt;
+
+&lt;p&gt;The first thing we need to know about OSI is how many layers the OSI Reference Model consists of and which layer performs which functions. The OSI Reference model consists of 7 layers. I will touch on this part in a moment, but briefly, a data coming to the device first passes through 7 layers, this is called Encapsulation. With another example, when the data leaves our device, it follows the path we call encapsulation and is sent through the OSI layers in the opposite direction of arrival. You may be confused but stay calm. I will explain all layers in detail.&lt;/p&gt;
+
+&lt;h4 id=&quot;layer-1---physical-layer&quot;&gt;Layer 1 - Physical Layer:&lt;/h4&gt;
+
+&lt;p&gt;When you look at the Physical layer in the OSI Reference model, it can also be described as the layer that defines how the data will be transmitted. In our previous blog post, I listed 3 separate items on how data can be transmitted. Let’s quickly remember,&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ethernet,&lt;/li&gt;
+  &lt;li&gt;Fiber Cable,&lt;/li&gt;
+  &lt;li&gt;Wireless&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Data is transmitted between devices in these 3 different ways. Data is carried between the layers in Binary as 1 and 0.&lt;/p&gt;
+
+&lt;h3 id=&quot;layer-2---data-link-layer&quot;&gt;Layer 2 - Data Link Layer:&lt;/h3&gt;
+
+&lt;p&gt;In the OSI Reference model, the data link layer has a more complex structure than the previous topic, the physical layer. In this layer, the data transmitted from the network layer is fragmented and error control bytes are added between them to form a Frame and transmitted to the destination address. The Frame allows the Data Link layer to receive the packets that it sends and receives between itself as a bulk packet, just as each layer has its own unique packet. When we look at the Frame types in this layer,&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;802.2 Ethernet,&lt;/li&gt;
+  &lt;li&gt;802.3 Ethernet,&lt;/li&gt;
+  &lt;li&gt;802.4 Token Bus,&lt;/li&gt;
+  &lt;li&gt;802.5 Token Ring.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If we need to give examples among these, the Ring and Bus topologies in the title of network topologies that we examined in our previous blog post come to mind. There is no need to go into detail because they are not topologies and frames that are widely used today.&lt;/p&gt;
+
+&lt;p&gt;The most commonly used frame type in Layer 2 today is the frame called 802.3 Ethernet. So what does this frame offer us? Let’s analyze it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&quot;text-align:center&quot; src=&quot;https://raw.githubusercontent.com/EyupErgin/eyupergin.github.io/main/images/data-link-layer.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;8023-ethernet-frame&quot;&gt;802.3 Ethernet Frame:&lt;/h3&gt;
+
+&lt;p&gt;As you can see in the picture above, the structure of a frame sent from L2 is shown. Ethernet 2 frame has a common structure that works on Layer 1 and Layer 2. If we look at this frame specifically, the parts that work on Layer 1 are as follows,&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Preamble,&lt;/li&gt;
+  &lt;li&gt;(SFD) Start Frame Delimiter,&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;(CRC) Frame Check Sequence
+&lt;br /&gt;&lt;br /&gt;
+These parts in the frame are the parts that are related to Layer 1. Let’s summarize these sections briefly.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Preamble: It is the beginning part of the frame. It occupies 7 bytes of space.&lt;/li&gt;
+  &lt;li&gt;SFD: This is the constraint of the start section. It occupies 1 byte.&lt;/li&gt;
+  &lt;li&gt;CRC: This is the space between the frame and another frame. It occupies 12 bytes.
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Well, if we talk about the tasks of the layers in Layer 2 that carry the data;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Destination MAC Address: It is the part that contains the destination MAC address. It occupies 6 bytes of space.&lt;/li&gt;
+  &lt;li&gt;Source MAC Address: It is the part that contains the source MAC address. It occupies 6 bytes.&lt;/li&gt;
+  &lt;li&gt;Ether Type: This part specifies which protocol the next packet section, the payload, belongs to. It occupies 2 bytes.
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Finally, let me explain the part that carries the data in the frame, which we call payload.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Data or Payload: The data in this section contains the data belonging to the protocol to which the data in the Ether Type I mentioned in the previous section belongs. For example IP, ARP etc. This field can contain data between 46 and 1500 bytes.
+&lt;br /&gt;&lt;br /&gt;
+Since we have covered 802.3 Ethernet in detail, let’s continue our topic from Layer 2.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A very large part of the Data Link layer runs on the network card in the device. There are also 2 sub-layers of Layer 2.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;MAC (Media Accsess Control),&lt;/li&gt;
+  &lt;li&gt;LLC (Logical Link Control).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In these two sub-layers, they work with the Data Link layer, which is the upper layer. As additional information, there is a hardware device called Switch as an example of the hardware working at this layer. This device ensures that the data is transmitted to the correct destination by matching the connected devices according to their MAC addresses.&lt;/p&gt;
+
+&lt;h2 id=&quot;layer-3---network-layer&quot;&gt;Layer 3 - Network Layer:&lt;/h2&gt;
+
+&lt;p&gt;Another layer after Layer 2 is Layer 3 Network Layer. In this layer, the packets that we characterized as Frame in the previous title are transformed into network packets at Layer 3 by adding L3 Header. This layer is responsible for sending data packets to another network. While this is being done, addressing and routing operations also take place at the network layer.&lt;br /&gt;&lt;br /&gt;
+&lt;img style=&quot;text-align:center&quot; src=&quot;https://raw.githubusercontent.com/EyupErgin/eyupergin.github.io/main/images/network-layer.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;addressing&quot;&gt;Addressing:&lt;/h3&gt;
+
+&lt;p&gt;The network layer inherently operates an addressing mechanism between the source computer and the destination computer. According to this addressing mechanism, each device must have a unique address to ensure that each data packet is sent to the correct destination. These addresses must be unique. In short, this addressing mechanism is called the IP mechanism.&lt;/p&gt;
+
+&lt;p&gt;The protocols used and supported at this layer are as follows,&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;IP (Internet Protocol, IPv4 and IPv6),&lt;/li&gt;
+  &lt;li&gt;IPX (Internetwork Packet Exchange),&lt;/li&gt;
+  &lt;li&gt;ARP (Address Resolution Protocol),&lt;/li&gt;
+  &lt;li&gt;ICMP (Internet Control Message Protocol).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;routing&quot;&gt;Routing:&lt;/h3&gt;
+
+&lt;p&gt;Routers called R1, R2 and R3, shown in the diagram, are used to send data to a different device in the same network. Routers read the data in the L3 data packet to determine which destination device the data should go to and direct it to the destination.&lt;/p&gt;
+
+&lt;p&gt;The protocols used and supported at this layer are as follows,&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;RIP (Routing Information Protocol),&lt;/li&gt;
+  &lt;li&gt;EIGRP (Enchanged Interior Gateway Routing Protocol),&lt;/li&gt;
+  &lt;li&gt;OSPF (Open Short Path First),&lt;/li&gt;
+  &lt;li&gt;BGP (Border Gateway Protocol).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;layer-4---transport-layer&quot;&gt;Layer 4 - Transport Layer:&lt;/h2&gt;
+
+&lt;p&gt;The transport layer is the 4th and one of the most important layers of the OSI Reference Model, in fact it is the heart of the OSI Reference Model. The task of this layer is, if it receives data from an upper layer, it divides the data into parts and transmits it to the lower layer. If it receives data from a lower layer, it combines the data and transmits it to the upper layer.&lt;br /&gt;&lt;br /&gt;
+&lt;img style=&quot;text-align:center&quot; src=&quot;https://raw.githubusercontent.com/EyupErgin/eyupergin.github.io/main/images/transport-layer.png&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;
+It receives data from the lower layer as a packet and transmits it to the upper layer as a segment. It receives data from the upper layer as a segment and transmits it as data to the lower layer.&lt;/p&gt;
+
+&lt;h2 id=&quot;layer-5---session-layer&quot;&gt;Layer 5 - Session Layer&lt;/h2&gt;
+
+&lt;p&gt;Session Layer, the 5th layer of the OSI Reference Model, manages the establishment, management and termination of connections between applications. The dialog in the data flow between two applications is provided at this layer. Session Layer provides the following:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Setup,&lt;/li&gt;
+  &lt;li&gt;Management,&lt;/li&gt;
+  &lt;li&gt;Termination&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Since the dialog between two applications in this layer also includes communications with different devices, its most important feature is that it transmits the dialog between the client and the server without mixing it with communications with other devices.&lt;/p&gt;
+
+&lt;p&gt;Session Layer contains 4 different protocols. These protocols are as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;NetBIOS&lt;/li&gt;
+  &lt;li&gt;RPC&lt;/li&gt;
+  &lt;li&gt;SIP&lt;/li&gt;
+  &lt;li&gt;SDP&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So let’s take a quick look at these 4 protocols.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-is-netbios&quot;&gt;What is NetBIOS?&lt;/h4&gt;
+
+&lt;p&gt;NetBIOS is an API used for devices in the network to communicate with each other. NetBIOS allows separate computers to establish a connection over the local network. It serves on the Session Layer, one of the layers that provide the OSI Reference Model.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-rpc&quot;&gt;What is RPC?&lt;/h3&gt;
+
+&lt;p&gt;RPC enables communication between a client and a server on a network, within a computer, between a client and a server.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-is-sip&quot;&gt;What is SIP?&lt;/h4&gt;
+
+&lt;p&gt;SIP is a protocol used to initiate, maintain and terminate synchronous sessions involving messaging applications for audio, video, pictures, etc. within a network.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-is-sdp&quot;&gt;What is SDP?&lt;/h4&gt;
+
+&lt;p&gt;SDP is a protocol that allows the media to be transmitted to the client or server without losing ports in connections containing media based on audio or video transmission over IP in the network.&lt;/p&gt;
+
+&lt;h2 id=&quot;layer-6---presentation-layer&quot;&gt;Layer 6 - Presentation Layer&lt;/h2&gt;
+
+&lt;p&gt;This layer is layer 6 in the OSI reference model. This layer has the task of translating data into formats that computers or devices can process. Some of the data protocols transmitted on the layer are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;GIF,&lt;/li&gt;
+  &lt;li&gt;JPEG,&lt;/li&gt;
+  &lt;li&gt;TIFF,&lt;/li&gt;
+  &lt;li&gt;ASCII,&lt;/li&gt;
+  &lt;li&gt;MPEG.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This layer performs basic operations such as encryption, decryption and compression of data.&lt;/p&gt;
+
+&lt;h2 id=&quot;layer-7---application-layer&quot;&gt;Layer 7 - Application Layer&lt;/h2&gt;
+
+&lt;p&gt;This layer is the last layer of the OSI Reference Model. The main feature of this layer is that it does not provide any services to the layers below it. Some protocols running at this layer are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;SSH,&lt;/li&gt;
+  &lt;li&gt;FTP,&lt;/li&gt;
+  &lt;li&gt;HTTP,&lt;/li&gt;
+  &lt;li&gt;DNS,&lt;/li&gt;
+  &lt;li&gt;SMTP.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For example, protocols such as SSH, which are necessary for secure web access, are on this layer. Services that host tasks such as forwarding emails etc. are also on this layer.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Network, Protocols and Topologies</title>
+   <link href="http://localhost:4000/basic-network-what-is-network-protocols-and-topologies"/>
+   <updated>2022-01-01T00:00:00+03:00</updated>
+   <id>http://localhost:4000/basic-network-what-is-network-protocols-and-topologies</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/EyupErgin/eyupergin.github.io/main/images/Basic-Network-1.png&quot; alt=&quot;HEAD&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hello everyone with a new blog post! As of 2023, I am continuing the series of blog posts that I have been taking a break for a long time. I am here with the first article of the series consisting of 3 blog posts that we call Network Basics, I wish you good reading in advance.&lt;/p&gt;
+&lt;h2 id=&quot;what-is-network&quot;&gt;What is Network?&lt;/h2&gt;
+
+&lt;p&gt;The first thing we need to know before moving on to network basics is what a network is. So what is Network?&lt;/p&gt;
+
+&lt;p&gt;Network is the connection of multiple devices to each other in order to share resources. Network enables sharing of resources between devices in software or hardware. For example, if we take examples from a company network, in an office environment where there is no network, an external storage device is needed to transfer the software resource to another computer. Thanks to the network, this need is met by the reliable and fast transmission of the software resource on a common network where computers are connected without the need for an external media or storage device. Of course, this is a very simplified example of file transfer.&lt;/p&gt;
+
+&lt;p&gt;Another way of looking at it is that in environments without a network based on hardware resources, people still need an external media or storage device to transfer the files they need to hardware devices. Thanks to the network, for example, the output you want to get through a printer is very simple and the network can quickly provide you with a solution thanks to the hardware resource support of the network.&lt;/p&gt;
+
+&lt;p&gt;Of course, there are some requirements for computers to be connected to each other in networks. For example, there are three different methods used to connect two computers to each other.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ethernet,&lt;/li&gt;
+  &lt;li&gt;Fiber Cable,&lt;/li&gt;
+  &lt;li&gt;Wireless.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I will cover them in detail later, but I wanted to mention them briefly for the sake of knowledge. So, we have learned what we need to use to connect two or more devices to each other. However, we also need to know the protocols necessary to establish communication between devices. So let’s continue with our next topic, Network Protocols.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-a-network-protocol&quot;&gt;What is a Network Protocol?&lt;/h2&gt;
+
+&lt;p&gt;As everyone knows, people around the world need to know common languages in order to talk to each other and transfer information to each other. Network also works in this way. The network enables communication between two devices, just like people, but first the two devices must be able to speak the same language. Devices in the network can only communicate and transfer information with each other if they use common protocols.&lt;/p&gt;
+
+&lt;p&gt;I will examine this issue in the OSI Reference Model, which I will cover in detail in my upcoming blog posts. Let’s continue without slowing down and move on to our next topic, What are Network Topologies?&lt;/p&gt;
+
+&lt;h2 id=&quot;network-topologies&quot;&gt;Network Topologies&lt;/h2&gt;
+
+&lt;p&gt;It is the topology that determines how devices in a network are placed, how they are connected and how they transmit data. Today, it is used in two different ways. It is divided into two as Physical and Logical topology.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-physical-topology&quot;&gt;What is Physical Topology?&lt;/h3&gt;
+
+&lt;p&gt;Physical topology is the topology that determines how the network will physically look like. It determines how the devices and cables in the network should be organized.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-logical-topology&quot;&gt;What is Logical Topology?&lt;/h3&gt;
+
+&lt;p&gt;Logical topology utilizes physical topology to determine how data is transferred.&lt;/p&gt;
+
+&lt;p&gt;Network engineers need to consider these two topologies when designing a network and place devices and create the network according to these two topologies.&lt;/p&gt;
+
+&lt;p&gt;Today, the most widely used and known Network Topologies are the design models developed on five sequences. These models are used by network and system engineers in the required environments.&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&quot;text-align:center&quot; src=&quot;https://raw.githubusercontent.com/EyupErgin/eyupergin.github.io/main/images/topologies.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As you can see in the picture, 5 different network topologies are shown. These are&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bus Topology&lt;/li&gt;
+  &lt;li&gt;Ring Topology&lt;/li&gt;
+  &lt;li&gt;Star Topology&lt;/li&gt;
+  &lt;li&gt;Tree Topology&lt;/li&gt;
+  &lt;li&gt;Mesh Topology&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;They are network configurations named as. The topologies here have pros and cons compared to each other. Let us examine them in order.&lt;/p&gt;
+
+&lt;h3 id=&quot;bus-topology&quot;&gt;Bus Topology:&lt;/h3&gt;
+
+&lt;p&gt;In this topology type, communication between devices takes place on a single line. The data transferred on the network goes to all devices until it is transferred to the target device. For this reason, network performance is very low and is not widely preferred today. In addition, the communication type used on this topology is Ethernet.&lt;/p&gt;
+
+&lt;p&gt;This type of topology is very popular as it can be easily installed on the network. In addition, when an additional device is desired to be connected to the network, it can be easily added. It is economical, and it is possible to create a network without the need for external network devices such as switches or hubs.&lt;/p&gt;
+
+&lt;p&gt;However, every good thing has some disadvantages. In this topology type, the limited number of devices that can be connected and the limited line length are the main disadvantages.&lt;/p&gt;
+
+&lt;p&gt;In addition, in this topology, it is difficult to detect failures or errors in the systems installed on the backbone. In addition, when a problem occurs on the network, all devices connected to the network are affected. The data transfer rate is also low.&lt;/p&gt;
+
+&lt;h3 id=&quot;ring-topology&quot;&gt;Ring Topology:&lt;/h3&gt;
+
+&lt;p&gt;In this topology type, the data sent on the network is transferred to all devices until it reaches the receiving device. Although it is logically ring-shaped, it actually has similarities with star topology. Although it is logically in the form of a circle, since it physically consists of devices connected to the MAU, it is logically analogized as a ring and physically as a star.&lt;/p&gt;
+
+&lt;p&gt;As with the bus topology, there are some advantages and disadvantages here.&lt;/p&gt;
+
+&lt;p&gt;The advantages are that all devices on the network have the same authorization and there is little performance degradation if a device is added to the network.&lt;/p&gt;
+
+&lt;p&gt;As disadvantages, a malfunction that may occur on a device connected to the network may cause the entire network to become unusable. It is also a very costly topology.&lt;/p&gt;
+
+&lt;h3 id=&quot;star-topology&quot;&gt;Star Topology:&lt;/h3&gt;
+
+&lt;p&gt;Star topology consists of a hub or switch in the center and devices connected to it. In this topology, the data is logically sent to the hub or switch before the device from which the data originates. Then the data is transmitted to the destination device.&lt;/p&gt;
+
+&lt;p&gt;In this topology, if the network device called hub or switch at the center fails, the connection between the target computers from which the data originates and the target computers to which the data should be transmitted is broken. Ethernet protocol is widely used as a protocol. Devices can also be transmitted via fiber optic cables.&lt;/p&gt;
+
+&lt;p&gt;In this type of topology, network management and problem detection is easier, and it is also easy to add new devices. The biggest difference compared to the topologies I have mentioned so far is that a problem occurring in the destination or sender device does not affect the network.&lt;/p&gt;
+
+&lt;p&gt;As disadvantages, a problem in the intermediary network device in the center affects the whole network. It also requires more cable connections.&lt;/p&gt;
+
+&lt;h3 id=&quot;tree-topology&quot;&gt;Tree Topology:&lt;/h3&gt;
+
+&lt;p&gt;In this topology, which we call tree topology, devices are connected to each other with two different connection points. This topology is often used to bring together networks in a star topology structure at an upper connection point. Thus, networks can be scaled up.&lt;/p&gt;
+
+&lt;p&gt;The advantages of this topology are that it is easy to reach each device and the segments they form. The device boundary of each intermediate topology is limited by the cable length. When backbone cables or central devices fail, the network is disrupted. It is difficult to install and organize.&lt;/p&gt;
+
+&lt;h3 id=&quot;mesh-topology&quot;&gt;Mesh Topology:&lt;/h3&gt;
+
+&lt;p&gt;In this topology, a device connected to the network is connected to all other devices on the network. In this topology, if a problem occurs on one line, the device can maintain the connection through other lines. &lt;br /&gt;
+As an advantage, this topology has the biggest advantage with its high data rate. In addition, when a new device is to be added to the network, it can be easily included.
+As disadvantages, the number of connections is high. Too many cables are used and the cost is high.
+&lt;br /&gt;&lt;br /&gt;
+After examining our last topology type, Mesh, we have finished the topics I planned for our first blog post today. Hope to see you in my next blog post.&lt;/p&gt;
 </content>
  </entry>
  

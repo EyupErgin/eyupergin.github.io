@@ -1,22 +1,27 @@
----
-layout: default
----
-
+--- 
+layout: default 
+--- 
 <section class="posts">
-<h1>Welcome</h1>
-<p>Welcome to <b> Eyup Sukru Ergin</b>'s Blog.</p>
- <p>I am an analyst doing research in all areas of intelligence. I am doing research in Cyber and Military Threat Intelligence. I share my research and reports on my blog.</p>
-	<p>To communicate: <br class="hide-on-mobile-menu"><br>
-		<br> <blockquote><a target="_blank" href="mailto:ergindev@gmail.com">Mail</a><a style="text-decoration: none; color: #ececec" > - </a>
-		<a target="_blank" href="https://www.linkedin.com/in/eyupergin">LinkedIn</a><a style="text-decoration: none; color: #ececec" > - </a>
-		<a target="_blank" href="https://twitter.com/ErginDev">Twitter</a><a style="text-decoration: none; color: #ececec" > - </a>
-		<a target="_blank" href="https://github.com/EyupErgin">Github</a></blockquote> </p>
-
-
-<br><hr><br><br>
-<ul>
-{% for post in site.posts %}
-<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%Y" }}</time></li>
-{% endfor %}
-</ul>
-</section>
+	<h1 style="margin-bottom: 18px;">Welcome</h1>
+	<p>Welcome to <b> Eyup Sukru Ergin</b>'s Blog. </p>
+	<p> I am an Intelligence Analyst, Threat Hunter and Threat Researcher. I specialize in Cyber ​Security and Cyber ​Threat ​Intelligence. I have 3 years of experience in the field of cyber security and I have been constantly improving myself for 5 years. Based on the experience and knowledge I have gained in this process, I make researches and developments and publish them on my blog.</p>
+	<br>
+	<p>	<br>
+	  <div class="author-box" style="display: flex; align-items: center; padding: 5px; border: 1px solid #ccc; border-radius: 5px; ">
+		<div style="display: flex; align-items: center; gap: 15px; margin-top: 10px;">
+			<a target="_blank" href="mailto:ergindev@gmail.com"><img src="/icons/email.png" style="width:30px;height:30px"></a>
+			<a target="_blank" href="https://www.linkedin.com/in/eyupergin"><img src="/icons/linkedin.png" style="width:30px;height:30px"></a>
+			<a target="_blank" href="https://twitter.com/ErginDev"><img src="/icons/twitter.png" style="width:30px;height:30px"></a>
+			<a target="_blank" href="https://github.com/EyupErgin"><img src="/icons/github.png" style="width:30px;height:30px"></a>
+		</div>
+	</div>
+	</p>
+	<br>
+	<hr>
+	<br>
+	<br>
+	<ul> {% for post in site.posts %} <li>
+		<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+		<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%Y" }}</time>
+	  </li> {% endfor %} </ul>
+  </section>
