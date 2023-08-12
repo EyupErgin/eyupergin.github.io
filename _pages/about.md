@@ -75,7 +75,7 @@ In addition to my individual studies, I conduct extensive research in the fields
 	<li>Command and Control Hunting</li>
 	<li>Attack Detection and Monitoring</li>
 	<br>
-	<li><strong>Other Skills:</strong></li>
+	<li><strong>Other Side Skills:</strong></li>
 	<li>Project Managing</li>
 	<li>Malware Analyzing</li>
 	<li>Network Analyzing</li>

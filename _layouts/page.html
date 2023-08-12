@@ -3,11 +3,59 @@ layout: default
 ---
 
 <section class="post">
-  <p class="hide-on-mobile-menu">
-     <a style="color:#000; font-size:20px; text-decoration: none" href="/">Home</a><a style="text-decoration: none; color: #edf2f7" > | </a>
-     <a style="color:#000; font-size:20px; text-decoration: none" href="/about">About</a>
-  </p>
-  <hr class="hide-on-mobile-menu" style="width:100%; height: 1px; background-color: #edf2f7" >
+	<div class="header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px;">
+		<div style="padding: 0px; border-radius: 5px;">
+			<h1 href="" style="margin: 0;">Welcome</h1>
+		</div>
+		<div class="hide-on-mobile-menu">
+			<a id="menu-toggle" href="#"><img src="/icons/menu-2.png" style="width:35px; height:35px"></a>
+		</div>
+	</div>
   <h2>{{ page.title }}</h2>
   {{ content }}
+
+  <!-- Menü içeriği -->
+<div id="menu" style="position: fixed; top: 0; right: -250px; width: 250px; height: 100%; background-color: #fff; box-shadow: 0px 0px 10px rgba(0,0,0,0.5); transition: right 0.3s ease;">
+	<ul style="list-style-type: none; padding: 20px; margin-top: 16px;">
+		<br><p style="display: flex; align-items: center; justify-content: flex-end;">
+			<img src="/icons/menu.png" id="menu-close" style="width: 30px; height: 30px; border-radius: 5px;">
+		</p>
+		<br>
+		<span style="display: flex; align-items: center; justify-content: center;">
+			<p style="display: flex; align-items: center; justify-content: center;">
+				<img id="menu-close" src="https://avatars.githubusercontent.com/u/74828443?v=4" style="width: 200px; height: 200px; border-radius: 5px; margin-bottom: 10px; margin-top: 15px;">
+			</p>
+			<br>
+		</span>
+		<li><a style="margin-left: 5px; text-decoration: none;"><b>Pages:</b></a></li>
+		<li style="margin-bottom: 5px;"><a style="margin-left: 5.5px; text-decoration: none;" href="/"><img src="/icons/home.png" style="width: 20px; height:20px; vertical-align: middle;"> -  Home Page</a></li>
+		<li style="margin-bottom: 5px;"><a style="margin-left: 5.5px; text-decoration: none;" href="/blog"><img src="/icons/web.png" style="width: 20px; height:20px; vertical-align: middle;"> - CyberSecLog</a></li>
+		<li style="margin-bottom: 5px;"><a style="margin-left: 5.5px; text-decoration: none;" href="/intelligence"><img src="/icons/brain.png" style="width: 20px; height:20px; vertical-align: middle;"> - IntelligenceLog</a></li>
+		<li style="margin-bottom: 5px;"><a style="margin-left: 5.5px; text-decoration: none;" href="/network"><img src="/icons/web.png" style="width: 20px; height:20px; vertical-align: middle;"> - NetworkLog</a></li>
+		<li style="margin-bottom: 5px;"><a style="margin-left: 5.5px; text-decoration: none;" href="/search"><img src="/icons/search.png" style="width: 20px; height:20px; vertical-align: middle;"> - Search</a></li>
+		<li style="margin-bottom: 5px;"><a style="margin-left: 5.5px; text-decoration: none;" href="/about"><img src="/icons/about.png" style="width: 20px; height:20px; vertical-align: middle;"> - About</a></li>
+	</ul>
+</div>
+
+
+<script>
+	document.getElementById("menu-toggle").addEventListener("click", function() {
+		var menu = document.getElementById("menu");
+		if (menu.style.right === "-250px") {
+			menu.style.right = "0";
+		} else {
+			menu.style.right = "-250px";
+		}
+	});
+	
+	document.getElementById("menu-close").addEventListener("click", function() {
+		var menu = document.getElementById("menu");
+		if (menu.style.right === "-250px") {
+			menu.style.right = "0";
+		} else {
+			menu.style.right = "-250px";
+		}
+	});
+</script>
 </section>
+
