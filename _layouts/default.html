@@ -3,37 +3,82 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html lang="en" >
-  {% include head.html %}  
-  <body>
-    <main role="main">
-	    
-	    {% include navigation.html %}
-	    
-        {{ content }}
-        	    
+<html lang="en"> {% include head.html %} <body>
+    <main role="main"> {% include navigation.html %} {{ content }}
     </main>
-            
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-30S7CNC6Z8"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-30S7CNC6Z8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-30S7CNC6Z8');
-</script>
-
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-30S7CNC6Z8');
+    </script>
+    <script>
+      const themeToggle = document.getElementById("themeToggle");
+      const body = document.body;
+      themeToggle.addEventListener("click", function() {
+        body.classList.toggle("dark-mode");
+        const isDarkMode = body.classList.contains("dark-mode");
+        themeToggle.innerHTML = `
+			<img class="theme-icon" src="icons/${isDarkMode ? 'moon-svgrepo-com.svg' : 'sun-svgrepo-com.svg'}" alt="${isDarkMode ? 'Moon' : 'Sun'} Icon">`;
+      });
+    </script>
   </body>
-<p style="font-size:90%; text-align:center"><b>Eyup Sukru Ergin © 2018 - 2023</b></p> 
-<p style="font-size:90%; text-align:center">
+  <p style="font-size:90%; text-align:center">
+    <b>Eyup Sukru Ergin © 2018 - 2023</b>
+  </p>
+  </p>
+  <br>
+  <style>
+    body {
+      background-color: white;
+      color: black;
+      transition: background-color 0.3s, color 0.3s;
+    }
 
-<a target="_blank" href="mailto:ergindev@gmail.com" style="color:#16171a; text-decoration: none">Mail</a> -
-<a target="_blank" href="https://www.linkedin.com/in/eyupergin" style="color:#16171a; text-decoration: none">LinkedIn</a> -
-<a target="_blank" href="https://twitter.com/ErginDev" style="color:#16171a; text-decoration: none">Twitter</a> -
-<a target="_blank" href="https://github.com/EyupErgin" style="color:#16171a; text-decoration: none">Github</a> 
+    .dark-mode {
+      background-color: #202124;
+      color: white;
+      transition: background-color 0.3s, color 0.3s;
+    }
 
+    a {
+      color: black;
+      /* Bağlantı rengi - Açık temada siyah */
+    }
 
+    body.dark-mode a {
+      color: white;
+      /* Bağlantı rengi - Koyu temada beyaz */
+    }
 
-</p> 
-<br>
+    .theme-toggle {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: #ffffff;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+      cursor: pointer;
+      z-index: 9999;
+      transition: background-color 0.3s, transform 0.3s;
+    }
+
+    .theme-icon {
+      width: 30px;
+      height: 30px;
+    }
+
+    .theme-toggle.dark-mode {
+      background-color: #333333;
+    }
+  </style>
 </html>
