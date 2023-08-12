@@ -11,5 +11,5 @@ title: Tags
  <li><a href="/tag/{{ tag | first | slugify }}/">{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }}){% unless forloop.last %}, {% endunless %}</a></li>
 {% endfor %}
 </ul>
-
+<div class="theme-toggle" id="themeToggle"> <img class="theme-icon" src="icons/sun-svgrepo-com.svg" alt="Sun Icon"> </div>
 </section>
