@@ -1,84 +1,88 @@
----
-layout: compress
----
+<html lang="en">
+{% include head.html %}
+<body>
+  <main role="main">
+    {% include navigation.html %}
+    {{ content }}
+  </main>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-30S7CNC6Z8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-<!DOCTYPE html>
-<html lang="en"> {% include head.html %} <body>
-    <main role="main"> {% include navigation.html %} {{ content }}
-    </main>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-30S7CNC6Z8"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-      gtag('config', 'G-30S7CNC6Z8');
-    </script>
-    <script>
-      const themeToggle = document.getElementById("themeToggle");
-      const body = document.body;
-      themeToggle.addEventListener("click", function() {
-        body.classList.toggle("dark-mode");
-        const isDarkMode = body.classList.contains("dark-mode");
-        themeToggle.innerHTML = `
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-30S7CNC6Z8');
+  </script>
+  <script>
+    const themeToggle = document.getElementById("themeToggle");
+    const body = document.body;
+    const theme = localStorage.getItem("theme");
+    if (theme === "dark") {
+      body.classList.add("dark-mode");
+    }
+    themeToggle.addEventListener("click", function() {
+      body.classList.toggle("dark-mode");
+      const isDarkMode = body.classList.contains("dark-mode");
+      localStorage.setItem("theme", isDarkMode ? "dark" : "light");
+      themeToggle.innerHTML = `
 			<img class="theme-icon" src="icons/${isDarkMode ? 'moon-svgrepo-com.png' : 'sun-svgrepo-com.png'}" alt="${isDarkMode ? 'Moon' : 'Sun'} Icon">`;
-      });
-    </script>
-  </body>
-  <p style="font-size:90%; text-align:center">
-    <b>Eyup Sukru Ergin © 2018 - 2023</b>
-  </p>
-  </p>
-  <br>
-  <style>
-    body {
-      background-color: white;
-      color: black;
-      transition: background-color 0.3s, color 0.3s;
-    }
+    });
+  </script>
+</body>
+<p style="font-size:90%; text-align:center">
+  <b>Eyup Sukru Ergin © 2018 - 2023</b>
+</p>
+</p>
+<br>
+<style>
+  body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+  }
 
-    .dark-mode {
-      background-color: #202124;
-      color: white;
-      transition: background-color 0.3s, color 0.3s;
-    }
+  .dark-mode {
+    background-color: #202124;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+  }
 
-    a {
-      color: black;
-      /* Bağlantı rengi - Açık temada siyah */
-    }
+  a {
+    color: black;
+    /* Bağlantı rengi - Açık temada siyah */
+  }
 
-    body.dark-mode a {
-      color: white;
-      /* Bağlantı rengi - Koyu temada beyaz */
-    }
+  body.dark-mode a {
+    color: white;
+    /* Bağlantı rengi - Koyu temada beyaz */
+  }
 
-    .theme-toggle {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      background-color: #ffffff;
-      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-      cursor: pointer;
-      z-index: 9999;
-      transition: background-color 0.3s, transform 0.3s;
-    }
+  .theme-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;;
+    border-radius: 50%;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    z-index: 9999;
+    transition: background-color 0.3s, transform 0.3s;
+  }
 
-    .theme-icon {
-      width: 30px;
-      height: 30px;
-    }
+  .theme-icon {
+    width: 30px;
+    height: 30px;
+  }
 
-    .theme-toggle.dark-mode {
-      background-color: #333333;
-    }
-  </style>
+  .theme-toggle.dark-mode {
+    background-color: #333333;
+  }
+</style>
 </html>
