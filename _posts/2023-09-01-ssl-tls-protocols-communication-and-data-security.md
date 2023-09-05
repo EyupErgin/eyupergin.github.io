@@ -57,7 +57,6 @@ A Note
 > "Client Hello" and "Server Hello" have an important place in this blog series on the picture I have attached here to explain to you. You can even say that this is where it all started.
 > 
 
-<br>
 ## Basic Principles of SSL and TLS
 
 Well, we have talked about privacy, security, authentication and so on, but now let's see what they mean for us.
