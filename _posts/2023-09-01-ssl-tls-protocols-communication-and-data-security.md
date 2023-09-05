@@ -27,12 +27,12 @@ Hello everyone with a new security blog post! In our new series "**Understanding
 
 SSL and TLS are essentially internet protocols. These internet protocols secure data communication over the internet. Their main purpose is to ensure confidentiality, integrity and authentication during data transmission. Today, these protocols are mainly used for communication between web browsers and servers, and are involved in the transmission of sensitive information without it falling into the hands of third parties.
 
-#### What is SSL?
+### What is SSL?
 
 SSL, also known as Secure Sockets Layer, is a protocol first developed by Netscape Communications in the mid-1990s. However, over time, this protocol evolved into a more reliable version, TLS, because it contained too many vulnerabilities. In the process of this evolution, it was standardized by the IETF while moving to TLS. SSL 3.0 is the most widely used version of this protocol, but due to its vulnerabilities, it is not preferred or recommended.
 
 
-#### What is TLS?
+### What is TLS?
 
 TLS, also known as Transport Layer Security. It has emerged as a more secure version of SSL. TLS includes data integrity and authentication mechanisms, especially the secure transmission of data.
 
@@ -58,7 +58,7 @@ A Note
 > 
 
 <br>
-### Basic Principles of SSL and TLS
+## Basic Principles of SSL and TLS
 
 Well, we have talked about privacy, security, authentication and so on, but now let's see what they mean for us.
 
