@@ -1,6 +1,20 @@
 ---
 title: SSL/TLS Protocols, Communication and Data Security
 permalink: ssl-tls-protocols-communication-and-data-security
+tags:
+- ssl
+- tls
+- c2
+- jarm
+- ja3
+- x509
+- data
+- communication
+- security
+image:
+  path: images/ssl-tls-1/head.png
+  height: 300
+  width: 1200
 ---
 
 <img src="/images/ssl-tls-1/head.png">
