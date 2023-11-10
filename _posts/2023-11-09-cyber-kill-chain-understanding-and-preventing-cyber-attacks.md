@@ -1,8 +1,20 @@
 ---
 title: 'Cyber ​​Kill Chain: Understanding and Preventing Cyber ​​Attacks'
----
+permalink: 'cyber-kill-chain-understanding-and-preventing-cyber-attacks'
+image: 'images/chain/og.png'
+tags:
+- cyber
+- chain
+- attack
+- cyber-kill-chain
+- security
+- operations
+- malware
 
-<img src="/images/chain/head.png">
+---
+<p align="center">
+	<img src="/images/chain/head.png">
+</p>
 # Introduction
 Cyber security has become a need of the whole world today. Especially with the increase in the use of computers and the widespread use of technology, there is a computer in every home and even in every individual today. 
 
