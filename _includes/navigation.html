@@ -4,11 +4,12 @@
 <ul>
 
 <div class="hide-on-mobile">
-   <a href="#"><img src="https://avatars.githubusercontent.com/u/74828443?v=4" style="border-radius: 50%!important;" width="90%"></a>
+   <a href="#" style="margin-right: 50px;"><img src="https://avatars.githubusercontent.com/u/74828443?v=4" style="border-radius: 5%!important;" width="80%"></a>
+      <br><br><hr style="margin-right: 30px; background: #edf2f7;"><br>
 </div>
 
 {% for item in site.data.navigation.links %}
-      <li><a href="{{ item.url }}" {% if item.url == page.url %} class="active"{% endif %}>{{ item.title }}</a></li>
+      <li style="margin-left: 5px;"><a href="{{ item.url }}" {% if item.url == page.url %} class="active"{% endif %}>{{ item.title }}</a></li>
    {% endfor %}
 </ul>
 </nav>
