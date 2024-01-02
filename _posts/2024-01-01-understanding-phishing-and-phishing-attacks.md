@@ -2,7 +2,7 @@
 title: Understanding Phishing and Phishing Attacks
 permalink: understanding-phishing-and-phishing-attacks
 image:
-  path: /image/phishing/banner.png
+  path: /images/phishing/banner.png
 ---
 
 <img src="/images/phishing/head.png">
