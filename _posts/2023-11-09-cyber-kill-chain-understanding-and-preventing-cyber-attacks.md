@@ -1,5 +1,6 @@
 ---
 title: 'Cyber ​​Kill Chain: Understanding and Preventing Cyber ​​Attacks'
+permalink: cyber-kill-chain-understanding-and-preventing-cyber-attacks
 ---
 
 <img src="/images/chain/head.png">
