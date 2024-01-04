@@ -78,3 +78,17 @@ layout: default
 		}
 	});
 </script>
+<script>
+	document.addEventListener("DOMContentLoaded", function() {
+		var liElements = document.querySelectorAll('li');
+
+		liElements.forEach(function(liElement) {
+			var aElementContent = liElement.querySelector('a').innerHTML.trim();
+
+			if (aElementContent === '' || aElementContent === ' ') {
+				liElement.querySelector('time').innerHTML = '&nbsp;';
+				liElement.querySelector('a').innerHTML = '&nbsp;';
+			}
+		});
+	});
+</script>
